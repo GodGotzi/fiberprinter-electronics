@@ -478,7 +478,7 @@
 			)
 		)
 		(property "Value" "EMC2302-2-AIZL-TR"
-			(at -2.0955 -2.999999 0)
+			(at -5.2865 -2.999999 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "1bf50515-86f4-40f9-affe-089dfa218fbf")

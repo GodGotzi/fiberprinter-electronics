@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "pi-shield-pcb.kicad_prl",
+    "filename": "printhead-pcb.kicad_prl",
     "version": 3
   },
   "project": {

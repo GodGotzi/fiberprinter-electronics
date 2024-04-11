@@ -589,6 +589,18 @@
     [
       "813ad687-b864-44a5-b729-c4edf26b731d",
       "Root"
+    ],
+    [
+      "b01a9293-0f79-4fdf-8646-1053b0e79170",
+      "fans"
+    ],
+    [
+      "cf47ce3c-6282-447b-867e-3907134e4bff",
+      "pwr"
+    ],
+    [
+      "d982b328-ddd9-44a5-ac14-a8d69a1e9eb0",
+      "sensors"
     ]
   ],
   "text_variables": {}
