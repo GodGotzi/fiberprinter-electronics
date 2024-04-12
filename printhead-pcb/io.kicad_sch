@@ -5,6 +5,158 @@
 	(uuid "a1af6d6b-26c5-4fc3-a9c5-b8625f36e9d9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Male"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Male"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Male_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -324,7 +476,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9536.pdf"
+			(property "Datasheet" "http://www.nxp.com/documents/data_sheet/PCA9536.pdf"
 				(at -5.08 -43.18 0)
 				(effects
 					(font
@@ -522,9 +674,9 @@
 		)
 		(symbol "power:+3.3V"
 			(power)
-			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -572,7 +724,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(effects
 					(font
@@ -622,8 +774,8 @@
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0)
-					(name "~"
+					(length 0) hide
+					(name "+3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -642,9 +794,9 @@
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -692,7 +844,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(effects
 					(font
@@ -718,8 +870,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(name "~"
+					(length 0) hide
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -961,6 +1113,28 @@
 			)
 		)
 	)
+	(global_label "IO2"
+		(shape input)
+		(at 229.87 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95bd7162-bd81-4690-af6f-11600c1decd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.74 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO0"
 		(shape input)
 		(at 209.55 138.43 0)
@@ -1015,7 +1189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13530320-8934-4fdc-a363-a2ab27cf8552")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 260.35 137.4774 90)
 			(effects
 				(font
@@ -1069,7 +1243,77 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "D2")
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Male")
+		(at 234.95 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18572e3c-ab21-4331-b77c-fddd3a5a3fda")
+		(property "Reference" "J10"
+			(at 236.22 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BL_TOUCH"
+			(at 236.22 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 234.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad30b2e1-b7ba-44d7-894f-516ee91ba1d3")
+		)
+		(pin "1"
+			(uuid "0adafeaa-48bf-4dea-bd85-398bbdbf93a8")
+		)
+		(instances
+			(project "printhead-pcb"
+				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -1085,7 +1329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a244f48-b88e-4427-9501-27f0df78595f")
-		(property "Reference" "R12"
+		(property "Reference" "R19"
 			(at 259.08 147.3199 0)
 			(effects
 				(font
@@ -1139,7 +1383,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "R12")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -1155,7 +1399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "656dce56-4a3e-4f11-8d3c-4f58af2a3b81")
-		(property "Reference" "R13"
+		(property "Reference" "R20"
 			(at 273.05 147.3199 0)
 			(effects
 				(font
@@ -1209,7 +1453,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "R13")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1252,7 +1496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/PCA9536.pdf"
+		(property "Datasheet" "http://www.nxp.com/documents/data_sheet/PCA9536.pdf"
 			(at 191.77 184.15 0)
 			(effects
 				(font
@@ -1313,7 +1557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ecebd94-bd0c-4590-8fec-af8ceeb1dcf3")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR047"
 			(at 196.85 137.16 0)
 			(effects
 				(font
@@ -1363,7 +1607,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -1379,7 +1623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85fbdd66-794c-4cd1-9762-756d958ad6ea")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 213.36 163.83 0)
 			(effects
 				(font
@@ -1429,7 +1673,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -1445,7 +1689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "957b18c1-9c9a-419d-be2e-4dc81c7f934f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR048"
 			(at 196.85 157.48 0)
 			(effects
 				(font
@@ -1495,7 +1739,73 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "#PWR043")
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "973336cc-2418-4770-a442-0e0f01fc7278")
+		(property "Reference" "#PWR051"
+			(at 229.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96771a1e-e797-499e-95cc-35a449f9ac35")
+		)
+		(instances
+			(project "printhead-pcb"
+				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1581,7 +1891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce0b233b-8ae1-424b-9d1a-58a5af50de12")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR050"
 			(at 226.06 163.83 0)
 			(effects
 				(font
@@ -1631,7 +1941,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "#PWR045")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1647,7 +1957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6156246-2804-497e-938b-ff390ac6fc87")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR052"
 			(at 256.54 158.75 0)
 			(effects
 				(font
@@ -1697,7 +2007,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "#PWR034")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1713,7 +2023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d73410c3-56ee-4beb-9c55-2f65b750f2cf")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 228.6 152.3999 0)
 			(effects
 				(font
@@ -1767,7 +2077,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "R14")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1783,7 +2093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db04cad6-70f2-432a-915f-cb37658db98c")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 215.9 152.3999 0)
 			(effects
 				(font
@@ -1837,7 +2147,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -1853,7 +2163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee597d14-8897-4a7a-8ab2-12fdc97b9526")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR053"
 			(at 270.51 158.75 0)
 			(effects
 				(font
@@ -1903,7 +2213,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/7d9d3ea2-804e-4cf4-8332-881084e6c0d6"
-					(reference "#PWR044")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
