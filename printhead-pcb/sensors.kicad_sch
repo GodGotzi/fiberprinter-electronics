@@ -554,163 +554,6 @@
 				)
 			)
 		)
-		(symbol "Device:L"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -1412,7 +1255,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 96.52) (xy 124.46 96.52)
+			(xy 119.38 96.52) (xy 134.62 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1442,16 +1285,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 167.64 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2789ce45-0d03-4003-81b1-ebdd052a79b3")
-	)
-	(wire
-		(pts
 			(xy 83.82 140.97) (xy 100.33 140.97)
 		)
 		(stroke
@@ -1472,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 96.52) (xy 157.48 96.52)
+			(xy 152.4 96.52) (xy 167.64 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1552,16 +1385,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 96.52) (xy 134.62 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ee12887-12f2-4d1b-ac53-48b8c6233324")
-	)
-	(wire
-		(pts
 			(xy 179.07 67.31) (xy 179.07 71.12)
 		)
 		(stroke
@@ -1592,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 96.52) (xy 184.15 96.52)
+			(xy 179.07 96.52) (xy 194.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1609,26 +1432,6 @@
 			(type default)
 		)
 		(uuid "7c60be37-d0cb-4cb0-80b2-075606238b51")
-	)
-	(wire
-		(pts
-			(xy 191.77 96.52) (xy 194.31 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8733decf-278a-4964-9c77-18565ef38da5")
-	)
-	(wire
-		(pts
-			(xy 101.6 96.52) (xy 105.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8821d40a-33dd-4ded-8edb-b5ddc3a448bf")
 	)
 	(wire
 		(pts
@@ -1649,6 +1452,16 @@
 			(type default)
 		)
 		(uuid "96486353-12c8-4874-8fa3-70f684761f01")
+	)
+	(wire
+		(pts
+			(xy 113.03 120.65) (xy 110.49 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ed1312-6056-4f87-9c21-583f4e0dd8e0")
 	)
 	(wire
 		(pts
@@ -1772,7 +1585,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 96.52) (xy 93.98 96.52)
+			(xy 90.17 96.52) (xy 105.41 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2482,7 +2295,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 110.49 120.65 270)
+		(at 113.03 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2491,7 +2304,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a1c917b-5d00-46b4-8a45-fb6379e44f1e")
 		(property "Reference" "#FLG03"
-			(at 112.395 120.65 0)
+			(at 114.935 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,7 +2313,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 114.3 120.6499 90)
+			(at 116.84 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2322,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 120.65 0)
+			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 120.65 0)
+			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2340,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 110.49 120.65 0)
+			(at 113.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2961,142 +2774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 161.29 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44d80456-80ae-47b1-9701-854fcf4ea0a2")
-		(property "Reference" "L3"
-			(at 161.29 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 161.29 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 161.29 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "712f9ab0-8105-4f14-8b92-2ed9365f56f0")
-		)
-		(pin "1"
-			(uuid "d9b49dc1-dcda-43ad-8b2a-cb7188a8417e")
-		)
-		(instances
-			(project "printhead-pcb"
-				(path "/813ad687-b864-44a5-b729-c4edf26b731d/d982b328-ddd9-44a5-ac14-a8d69a1e9eb0"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 187.96 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fba0fca-d325-4a37-94c3-dd9fe08e4df5")
-		(property "Reference" "L4"
-			(at 187.96 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 187.96 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 187.96 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 187.96 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bbc3a1a0-b7cb-4dcc-9268-e1745897a5c9")
-		)
-		(pin "1"
-			(uuid "dacd4727-fe05-4958-8f2e-d69eeaf39553")
-		)
-		(instances
-			(project "printhead-pcb"
-				(path "/813ad687-b864-44a5-b729-c4edf26b731d/d982b328-ddd9-44a5-ac14-a8d69a1e9eb0"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Male")
 		(at 199.39 125.73 180)
 		(unit 1)
@@ -3161,74 +2838,6 @@
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/d982b328-ddd9-44a5-ac14-a8d69a1e9eb0"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 128.27 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b0fdcee-20bd-4b8d-bfe9-d9c617e01761")
-		(property "Reference" "L2"
-			(at 128.27 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 128.27 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 128.27 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 128.27 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8116655a-4249-410a-961b-77a5fddfd657")
-		)
-		(pin "1"
-			(uuid "8d0017c7-f444-4259-a0b5-a6a4067d6401")
-		)
-		(instances
-			(project "printhead-pcb"
-				(path "/813ad687-b864-44a5-b729-c4edf26b731d/d982b328-ddd9-44a5-ac14-a8d69a1e9eb0"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3773,74 +3382,6 @@
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/d982b328-ddd9-44a5-ac14-a8d69a1e9eb0"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 97.79 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80bcfb65-28c3-4321-b2a1-d96ac30ba84f")
-		(property "Reference" "L1"
-			(at 97.79 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L"
-			(at 97.79 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5386504-51dd-44ee-8b96-bee27c76edde")
-		)
-		(pin "1"
-			(uuid "37111c9b-431d-4cf3-9b86-692e72a7fb9e")
-		)
-		(instances
-			(project "printhead-pcb"
-				(path "/813ad687-b864-44a5-b729-c4edf26b731d/d982b328-ddd9-44a5-ac14-a8d69a1e9eb0"
-					(reference "L1")
 					(unit 1)
 				)
 			)
