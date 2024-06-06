@@ -396,6 +396,19 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "210326b4-4a86-4c92-9e4a-00d788840de2",
+      "Root"
+    ],
+    [
+      "12248055-a8c0-49c9-a43a-101ba2f6a420",
+      "I2C"
+    ],
+    [
+      "8388111f-55ff-428b-a14c-23652e7886b8",
+      "Stepper Driver"
+    ]
+  ],
   "text_variables": {}
 }
