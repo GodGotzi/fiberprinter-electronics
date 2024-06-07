@@ -3003,8 +3003,8 @@
 		)
 	)
 	(sheet
-		(at 179.07 125.73)
-		(size 96.52 34.29)
+		(at 177.8 128.27)
+		(size 105.41 34.29)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3015,7 +3015,7 @@
 		)
 		(uuid "12248055-a8c0-49c9-a43a-101ba2f6a420")
 		(property "Sheetname" "I2C"
-			(at 179.07 125.0184 0)
+			(at 177.8 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3024,7 @@
 			)
 		)
 		(property "Sheetfile" "I2C.kicad_sch"
-			(at 179.07 160.6046 0)
+			(at 177.8 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3041,8 +3041,8 @@
 		)
 	)
 	(sheet
-		(at 48.26 153.67)
-		(size 82.55 25.4)
+		(at 17.78 128.27)
+		(size 156.21 67.31)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3053,7 +3053,7 @@
 		)
 		(uuid "8388111f-55ff-428b-a14c-23652e7886b8")
 		(property "Sheetname" "Stepper Driver"
-			(at 48.26 152.9584 0)
+			(at 17.78 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3062,7 @@
 			)
 		)
 		(property "Sheetfile" "stepper_driver.kicad_sch"
-			(at 48.26 179.6546 0)
+			(at 17.78 196.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
