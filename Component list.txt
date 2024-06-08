@@ -1,2 +1,4 @@
-Component list
+anforderungsliste für unseren fiberprinter
+wir brauchen am Druckkopf
 
+4 Fans, einzeln ansteuerbar
