@@ -616,6 +616,14 @@
     [
       "7d9d3ea2-804e-4cf4-8332-881084e6c0d6",
       "io"
+    ],
+    [
+      "d0b6e8c7-db5c-47cb-9dc6-0fe2f22b555a",
+      "LED Driver"
+    ],
+    [
+      "8c761283-af5f-48de-92da-23f77afbf455",
+      "motors"
     ]
   ],
   "text_variables": {}
