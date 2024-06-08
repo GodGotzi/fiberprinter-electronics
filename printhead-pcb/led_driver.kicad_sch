@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "3820ede5-a1aa-4b76-8ac5-6ec96a143b39")
+	(uuid "feb9cdd6-cd88-4d20-b41c-4b79605635a1")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Driver_LED:PCA9685BS"
@@ -656,6 +656,28 @@
 			)
 		)
 	)
+	(global_label "FAN_4_ON_OFF"
+		(shape input)
+		(at 99.06 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d4f6572-9c38-4bf3-a628-9d425ebdd9fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8339 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CuttingServo"
 		(shape input)
 		(at 99.06 53.34 0)
@@ -669,6 +691,28 @@
 		(uuid "508cb271-301f-491c-80cc-1ba3a6d10321")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.0193 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FAN_3_ON_OFF"
+		(shape input)
+		(at 99.06 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92070059-470d-4366-865f-bb3eab919caf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.8339 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
