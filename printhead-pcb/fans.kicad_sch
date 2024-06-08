@@ -2937,7 +2937,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FAN2"
+		(property "Value" "FAN3"
 			(at 107.95 121.9199 0)
 			(effects
 				(font
@@ -3280,7 +3280,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FAN2"
+		(property "Value" "FAN4"
 			(at 107.95 163.8299 0)
 			(effects
 				(font

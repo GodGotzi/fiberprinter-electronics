@@ -15,3 +15,6 @@ from printHeadPCB to Printhead
 
 from piShield to Printhead
 Stepper Motor 
+
+
+!! this is also important for the selection of the right cables
