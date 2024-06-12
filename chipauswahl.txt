@@ -1,0 +1,21 @@
+chipauswahl
+
+um unsere serielle schnittstelle eben zu verwenden, brauchen wir an beiden enden der i2c kommunikatoin einen chip der das differentielle i2c wieder in normales i2c wandelt, dmait wir mit diesem dann auf der platine zu den einzelnen bausteinen gehen können. 
+
+dabei haben wir uns für den chip PCA9615DP entschieden. /Beschreibe den Baustein hier bitte/
+
+dieser chip wird eben enimal auf dem druckkopf und einmal auf dem raspi-shield verbaut
+
+dann haben wir fans auf der platine verbaut die wir ansteuern möchten. dabei haben wir uns für den EMC2302-2-AIZL-TR entschieden. mit diesem können wir eben zwei fans ansteuern 
+
+um sensorwerte zum beispiel von temperatur sensoren über i2c zu kommunizieren haben wir uns für den adc chip ADS1015IDGS entschieden.
+
+dann brauchten wir noch einen gpio chip, mit welchem wir den schalter des bl touch einlesen und über i2c kommunizieren. PCA9536D
+
+dann darf noch der PCA9685BS nicht fehlen, mit welchem wir die beiden servo motoren ansteuern und weitere fans ein/ausschalten können. wir haben uns hierbei für diesen entschieden weil die servo motoren 50hz brauchen und dieser LED driver der enizige mit einem einstellbaren Frequenzbereich ist, in den 50 hz fallen. 
+
+dann möchten wir noch einen beschleunigungssensor auf dem druckkopf verbauen und über i2c kommunizieren. 
+dieser soll 
+
+
+https://botland.de/beschleunigungsmesser/1912-adxl345-3-achsen-i2c-spi-digitaler-beschleunigungsmesser-modul-5904422330392.html
