@@ -4879,7 +4879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal"
+		(property "Footprint" "Connector_RJ:RJ45_Molex_0855135013_Vertical"
 			(at 185.42 71.755 90)
 			(effects
 				(font
@@ -7912,45 +7912,6 @@
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 115.57 179.07)
-		(size 34.29 10.16)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d0b6e8c7-db5c-47cb-9dc6-0fe2f22b555a")
-		(property "Sheetname" "LED Driver"
-			(at 115.57 178.3584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "led_driver.kicad_sch"
-			(at 115.57 189.8146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "printhead-pcb"
-				(path "/813ad687-b864-44a5-b729-c4edf26b731d"
-					(page "5")
 				)
 			)
 		)
