@@ -464,6 +464,16 @@
 			)
 		)
 	)
+	(text "Beschleunigungssensor-Anschluss"
+		(exclude_from_sim no)
+		(at 144.78 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e43fdb42-4b1e-492e-ac4e-e8e87ead3676")
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 147.32 54.61 0)
@@ -567,7 +577,7 @@
 			(uuid "756f986f-1df3-4c35-aeef-72576ac2d467")
 		)
 		(instances
-			(project ""
+			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/8c761283-af5f-48de-92da-23f77afbf455"
 					(reference "#PWR028")
 					(unit 1)
@@ -634,7 +644,7 @@
 			(uuid "e35bf400-8e73-4cf1-938e-4cbb745a189c")
 		)
 		(instances
-			(project ""
+			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/8c761283-af5f-48de-92da-23f77afbf455"
 					(reference "#PWR030")
 					(unit 1)
@@ -650,7 +660,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e3ba130b-6eae-42e8-ad36-555c2e012a2a")
 		(property "Reference" "J15"
 			(at 142.875 41.91 0)
@@ -661,7 +670,7 @@
 			)
 		)
 		(property "Value" "BreakoutBoardADXL345"
-			(at 142.875 44.45 0)
+			(at 145.542 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +717,7 @@
 			(uuid "e98c11e6-5e04-4096-b34f-ce8f88d2c69a")
 		)
 		(instances
-			(project ""
+			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/8c761283-af5f-48de-92da-23f77afbf455"
 					(reference "J15")
 					(unit 1)
