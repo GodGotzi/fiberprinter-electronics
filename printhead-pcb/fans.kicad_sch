@@ -2314,7 +2314,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 190.5 68.58 0)
 			(effects
 				(font
@@ -2856,7 +2856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
 			(at 78.74 64.77 0)
 			(effects
 				(font
@@ -3141,7 +3141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83fb9d08-d5f2-4584-a114-8e8e41d84100")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 238.76 64.7699 0)
 			(effects
 				(font
@@ -3150,7 +3150,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FAN3"
+		(property "Value" "FAN2"
 			(at 238.76 67.3099 0)
 			(effects
 				(font
@@ -3159,7 +3159,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 237.49 67.31 0)
 			(effects
 				(font
@@ -3195,7 +3195,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/b01a9293-0f79-4fdf-8646-1053b0e79170"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3418,7 +3418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c0841c-7d22-40df-827b-d1498ca4da9e")
-		(property "Reference" "J14"
+		(property "Reference" "J7"
 			(at 238.76 106.6799 0)
 			(effects
 				(font
@@ -3436,7 +3436,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 237.49 109.22 0)
 			(effects
 				(font
@@ -3472,7 +3472,7 @@
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/b01a9293-0f79-4fdf-8646-1053b0e79170"
-					(reference "J14")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3572,7 +3572,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FAN2"
+		(property "Value" "FAN1"
 			(at 191.77 106.6799 0)
 			(effects
 				(font
@@ -3581,7 +3581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 190.5 106.68 0)
 			(effects
 				(font

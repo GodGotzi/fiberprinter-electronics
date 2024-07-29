@@ -6722,7 +6722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S3B-EH_1x03_P2.50mm_Horizontal"
+		(property "Footprint" "CustomFotLibByJan:CONN4_S4B-XH_JST"
 			(at 17.78 27.94 0)
 			(effects
 				(font

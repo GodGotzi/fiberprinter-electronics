@@ -2211,7 +2211,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 151.13 69.85 0)
 			(effects
 				(font
@@ -2555,7 +2555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 151.13 54.61 0)
 			(effects
 				(font
@@ -2686,7 +2686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µFC"
+		(property "Value" "0.1µF"
 			(at 127 128.2699 0)
 			(effects
 				(font
@@ -2831,7 +2831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 151.13 62.23 0)
 			(effects
 				(font
@@ -3515,7 +3515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 			(at 151.13 77.47 0)
 			(effects
 				(font
