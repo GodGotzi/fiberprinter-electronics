@@ -669,7 +669,7 @@
 				)
 			)
 		)
-		(property "Value" "BreakoutBoardADXL345"
+		(property "Value" "Breakout_Board_ADXL345"
 			(at 145.542 44.196 0)
 			(effects
 				(font
