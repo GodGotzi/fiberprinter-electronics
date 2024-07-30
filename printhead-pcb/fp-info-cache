@@ -1,4 +1,4 @@
-194633531
+23655773180580652
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -8590,6 +8590,13 @@ SMA THT Female Jack Horizontal
 2
 Connector_Coaxial
 SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount
+Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)
+SMA Straight Samtec Edge Mount
+0
+5
+2
+Connector_Coaxial
+SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount
 Connector SMA, 0Hz to 20GHz, 50Ohm, Edge Mount (http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf)
 SMA Straight Samtec Edge Mount
 0
@@ -54634,6 +54641,27 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+CustomFotLibByJan
+BF030-16A-B1-0360-0277-0600-LB
+
+
+0
+16
+16
+CustomFotLibByJan
+BF100-16-A-D-1-0640-L-C
+
+
+0
+16
+16
+CustomFotLibByJan
+CONN4_S4B-XH_JST
+
+S4B-XH-SM4-TB 
+0
+6
+6
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -71120,6 +71148,13 @@ DFN 0.45
 11
 9
 Package_DFN_QFN
+DFN-8-1EP_2x3mm_P0.5mm_EP0.56x2.15mm
+DFN, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/2451fg.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+11
+9
+Package_DFN_QFN
 DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm
 DFN, 8 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/05081702_c_ddb8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 DFN NoLead Linear-DDB
@@ -71384,6 +71419,13 @@ DFN, 12 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_p
 DFN NoLead
 0
 24
+13
+Package_DFN_QFN
+DFN-12-1EP_3x3mm_P0.45mm_EP1.66x2.38mm
+DD Package; 12-Lead Plastic DFN (3mm x 3mm) (see Linear Technology DFN_12_05-08-1725.pdf)
+DFN 0.45
+0
+17
 13
 Package_DFN_QFN
 DFN-12-1EP_3x4mm_P0.5mm_EP1.7x3.3mm
@@ -77826,6 +77868,13 @@ Rohm LGA NoLead
 10
 10
 Package_LGA
+Rohm_MLGA010V020A_LGA-10_2x2mm_P0.45mm_LayoutBorder_3x2y
+Rohm  LGA, 10 Pin (https://fscdn.rohm.com/en/techdata_basic/ic/package/Jisso_MLGA010V020A-1-2_Rev005s_E2(MSL3).pdf)
+Rohm LGA NoLead
+0
+10
+10
+Package_LGA
 ST_HLGA-10_2.5x2.5mm_P0.6mm_LayoutBorder3x2y
 ST  HLGA, 10 Pin (https://www.st.com/resource/en/datasheet/lps25hb.pdf#page=46), generated with kicad-footprint-generator ipc_noLead_generator.py
 ST HLGA NoLead
@@ -81147,6 +81196,20 @@ Package_SO
 VSSOP-8_2.3x2mm_P0.5mm
 VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f), generated with kicad-footprint-generator ipc_gullwing_generator.py
 VSSOP SO JEDEC-MO-187-CA TI-DCU0008A
+0
+8
+8
+Package_SO
+VSSOP-8_2.4x2.1mm_P0.5mm
+http://www.ti.com/lit/ml/mpds050d/mpds050d.pdf
+VSSOP DCU R-PDSO-G8 Pitch0.5mm
+0
+8
+8
+Package_SO
+VSSOP-8_3.0x3.0mm_P0.65mm
+VSSOP-8 3.0 x 3.0, http://www.ti.com/lit/ds/symlink/lm75b.pdf
+VSSOP-8 3.0 x 3.0
 0
 8
 8
