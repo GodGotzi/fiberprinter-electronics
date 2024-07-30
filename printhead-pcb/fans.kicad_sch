@@ -3063,7 +3063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EMC2302-2-AIZL-TR:MSOP10_MC_MCH"
+		(property "Footprint" "CustomFotLibByJan:MSOP10_MC_MCH"
 			(at 67.31 95.25 0)
 			(effects
 				(font
