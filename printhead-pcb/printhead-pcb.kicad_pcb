@@ -8584,7 +8584,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "801f7d32-387a-4c99-971e-d43b51f3e690")
-		(at 209.75 53.8)
+		(at 208.625 65.725)
 		(descr "Through hole angled pin header, 1x02, 2.54mm pitch, 6mm pin length, single row")
 		(tags "Through hole angled pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J7"
@@ -10691,7 +10691,7 @@
 	(footprint "Connector_JST:JST_EH_S5B-EH_1x05_P2.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "98f15f9a-f880-420b-86de-bb406fd71386")
-		(at 128 54)
+		(at 128.5 45.5325)
 		(descr "JST EH series connector, S5B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH horizontal")
 		(property "Reference" "J1"
