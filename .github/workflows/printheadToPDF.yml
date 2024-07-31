@@ -31,11 +31,6 @@ jobs:
     - name: Activate virtual environment
       run: source myenv/bin/activate && pip install PyPDF2
 
-    - name: Run merge_pdfs.py script
-      run: |
-        source myenv/bin/activate
-        python merge_pdfs.py
-
     - name: Run script.py
       run: |
         source myenv/bin/activate
