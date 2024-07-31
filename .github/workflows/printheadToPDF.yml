@@ -17,13 +17,13 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Add KiCad repository
-      run: sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
+      run: sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
 
     - name: Update package lists
       run: sudo apt update
 
     - name: Install KiCad
-      run: sudo apt install -y kicad
+      run: sudo apt install --install-recommends -y kicad
 
     - name: Set up Python environment
       run: python3 -m venv myenv
@@ -34,4 +34,5 @@ jobs:
     - name: Run script.py
       run: |
         source myenv/bin/activate
-        python script.py
+        python printhead.py
+        python piShield.py
