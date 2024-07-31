@@ -3760,7 +3760,7 @@
 	(symbol
 		(lib_id "Transistor_BJT:DTC143E")
 		(at 182.88 77.47 0)
-		(mirror y)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3768,7 +3768,7 @@
 		(dnp no)
 		(uuid "e3a793b4-3706-4068-96a0-d4aca3f292d0")
 		(property "Reference" "Q1"
-			(at 177.8 76.1999 0)
+			(at 187.96 78.7401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3777,7 @@
 			)
 		)
 		(property "Value" "DTC143E"
-			(at 177.8 78.7399 0)
+			(at 187.96 76.2001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
