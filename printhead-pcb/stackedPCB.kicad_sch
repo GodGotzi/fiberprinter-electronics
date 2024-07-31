@@ -2019,6 +2019,50 @@
 		)
 		(uuid "b3843784-f0f9-4bae-b1d3-e4546ec4430c")
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 151.13 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00fbafdd-73c5-49f2-ad27-9a2248c1cf9e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.6372 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IO3"
+		(shape input)
+		(at 163.83 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36bd66e7-1f3c-4a20-a196-881a09e4e5e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO3"
 		(shape input)
 		(at 128.27 43.18 0)
@@ -2059,50 +2103,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 151.13 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "718cca2a-f67e-49cd-859a-20416cdb34a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.5767 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 151.13 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "828cd2d7-6713-43e1-9a73-39d7e39aef39")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.6372 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2151,9 +2151,31 @@
 			)
 		)
 	)
-	(global_label "IO3"
+	(global_label "SDA"
 		(shape input)
-		(at 163.83 43.18 0)
+		(at 151.13 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c157390-489b-49a9-ac64-1df19ae55ae0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.5767 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 163.83 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2161,9 +2183,31 @@
 			)
 			(justify left)
 		)
-		(uuid "9af3e410-6192-4770-8a5b-c2602516491c")
+		(uuid "9111406f-e597-422f-985d-8491fcedec6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.96 43.18 0)
+			(at 170.3228 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 163.83 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bbff9dff-9287-40ba-83f1-3e32e1e0d490")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.3833 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,46 +2239,24 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "IO3"
 		(shape input)
-		(at 163.83 38.1 0)
+		(at 151.13 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "ccc8fee6-7681-4063-95ca-e5930665495a")
+		(uuid "ef6e94ab-ff89-42d6-b96d-a14c89e854c4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.3228 38.1 0)
+			(at 145 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 163.83 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dda0aedd-3228-4eed-b1e5-a20eb3126c26")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.3833 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2261,40 +2283,17 @@
 			)
 		)
 	)
-	(global_label "IO3"
-		(shape input)
-		(at 151.13 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fcf34009-b23b-489b-afe6-f72398208b3a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 163.83 33.02 270)
+		(lib_id "power:+3V3")
+		(at 163.83 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a36541d-51a5-40d8-80bf-5dd6eec7d569")
-		(property "Reference" "#PWR083"
-			(at 160.02 33.02 0)
+		(uuid "09b459f8-727a-4c19-b221-a402c02bf21c")
+		(property "Reference" "#PWR064"
+			(at 160.02 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,17 +2301,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 167.64 33.0199 90)
+		(property "Value" "+3V3"
+			(at 169.672 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 33.02 0)
+			(at 163.83 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 33.02 0)
+			(at 163.83 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,8 +2327,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 163.83 33.02 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,12 +2337,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "50787017-93e6-4c5e-b7b3-53dfb4a14010")
+			(uuid "aedd270a-c49c-43b4-9a0c-573b02f6c9ca")
 		)
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
-					(reference "#PWR083")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -2410,6 +2408,73 @@
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 163.83 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1068a8fe-b417-4ba6-8a05-c664bbe6e38f")
+		(property "Reference" "#PWR063"
+			(at 160.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 167.64 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6444e369-810c-4f18-9d23-8d0cfe2c9063")
+		)
+		(instances
+			(project "printhead-pcb"
+				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2483,16 +2548,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 151.13 35.56 90)
+		(lib_id "power:+12V")
+		(at 163.83 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "33e5cb91-8f9c-4b8b-9fdf-33d0254f2cb9")
-		(property "Reference" "#PWR079"
-			(at 154.94 35.56 0)
+		(fields_autoplaced yes)
+		(uuid "1d4a9c79-87d1-4ebe-8db7-1420edfe88dd")
+		(property "Reference" "#PWR055"
+			(at 160.02 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2500,16 +2566,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 144.78 35.56 90)
+		(property "Value" "+12V"
+			(at 167.64 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 35.56 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +2585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 35.56 0)
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,8 +2593,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 151.13 35.56 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 163.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,12 +2603,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c3475256-ecdf-42ec-956a-98502533b54e")
+			(uuid "b2c29a0c-3458-44e5-bded-77817b8ed09b")
 		)
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
-					(reference "#PWR079")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3123,6 +3190,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 151.13 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "607d54d1-b650-426b-acce-647adbff46dc")
+		(property "Reference" "#PWR051"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1484e6e-443d-4425-afb6-edc2b0319557")
+		)
+		(instances
+			(project "printhead-pcb"
+				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 45.72 270)
 		(unit 1)
@@ -3251,73 +3385,6 @@
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 151.13 33.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77a28f6f-1d16-4fd0-9dc2-25ad8e402ec1")
-		(property "Reference" "#PWR078"
-			(at 154.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 147.32 33.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "95aa858b-21e3-48f6-9475-5c664c62ac67")
-		)
-		(instances
-			(project "printhead-pcb"
-				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
-					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -3458,82 +3525,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 163.83 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a8116603-9279-4ef6-b01a-098686025777")
-		(property "Reference" "#PWR084"
-			(at 160.02 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 169.672 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 163.83 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d64ebd8f-8c30-4c92-9e5d-d0c354dee429")
-		)
-		(instances
-			(project "printhead-pcb"
-				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
-		(at 151.13 30.48 90)
+		(at 151.13 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b8a35899-0a29-4ace-aa6d-6d2b4c5ce66a")
-		(property "Reference" "#PWR077"
-			(at 154.94 30.48 0)
+		(uuid "aabf1b14-e11d-4381-87ce-596751c04de3")
+		(property "Reference" "#PWR041"
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3544,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 147.32 30.4799 90)
+			(at 147.32 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3553,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 30.48 0)
+			(at 151.13 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 30.48 0)
+			(at 151.13 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3571,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 151.13 30.48 0)
+			(at 151.13 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,12 +3580,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb5a1349-d628-484b-98b9-98a9afa6c88c")
+			(uuid "dd3224af-55e2-4cdf-97ff-04305c128b54")
 		)
 		(instances
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
-					(reference "#PWR077")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -4011,6 +4013,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 151.13 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d282d3fc-030f-4698-b1d0-ea61435cef8f")
+		(property "Reference" "#PWR054"
+			(at 154.94 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1807b841-4d3e-4ece-a773-4c2f3309724b")
+		)
+		(instances
+			(project "printhead-pcb"
+				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "MountingHole_Pad_2")
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 50.8 64.77 0)
@@ -4339,73 +4406,6 @@
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 163.83 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6b31908-4977-4d79-84fe-99a46956e78d")
-		(property "Reference" "#PWR082"
-			(at 160.02 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 167.64 30.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 163.83 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07829153-4ec1-4b19-99ae-40881f96677b")
-		)
-		(instances
-			(project "printhead-pcb"
-				(path "/813ad687-b864-44a5-b729-c4edf26b731d/973cbd04-4685-459c-b508-5e140dd5518f"
-					(reference "#PWR082")
 					(unit 1)
 				)
 			)
