@@ -6,8 +6,23 @@ from PyPDF2 import PdfMerger
 input_directory = './printhead-pcb/'  # Change this to the directory where your .kicad_sch files are located
 output_directory = './export/'  # Change this to your desired output directory
 
+# Function to delete file if it exists
+def delete_if_exists(file_path):
+    if os.path.exists(file_path):
+        os.remove(file_path)
+
 # Create the output directory if it doesn't exist
 os.makedirs(output_directory, exist_ok=True)
+
+# List of layers to include in the PDF export for PCB files
+pcb_layers_V2 = [
+    "F.Cu", "B.Cu", "F.Adhes", "B.Adhes", "F.Paste", "B.Paste",  
+    "F.Mask", "B.Mask", "Edge.Cuts", "Margin", "In1.Cu", "In2.Cu", 
+]
+pcb_layers_V3 = [
+    "F.Cu", "B.Cu", "F.Adhes", "B.Adhes", "F.Paste", "B.Paste", "F.SilkS", "B.SilkS",
+    "F.Mask", "B.Mask", "Edge.Cuts", "Margin", "In1.Cu", "In2.Cu", 
+]
 
 # Function to run kicad-cli command for schematic files
 def export_sch_to_pdf(input_file, output_file):
@@ -20,7 +35,15 @@ def export_sch_to_pdf(input_file, output_file):
 
 # Function to run kicad-cli command for PCB files
 def export_pcb_to_pdf(input_file, output_file):
-    command = ["kicad-cli", "pcb", "export", "pdf", "-o", output_file, input_file]
+    command = ["kicad-cli", "pcb", "export", "pdf", "-o", output_file, "--layers", ",".join(pcb_layers_V2), input_file]
+    try:
+        subprocess.run(command, check=True)
+        print(f"Successfully created PDF for PCB {input_file}")
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to create PDF for PCB {input_file}: {e}")
+
+def export_pcb_to_pdf_detailed(input_file, output_file):
+    command = ["kicad-cli", "pcb", "export", "pdf", "-o", output_file, "--layers", ",".join(pcb_layers_V3), input_file]
     try:
         subprocess.run(command, check=True)
         print(f"Successfully created PDF for PCB {input_file}")
@@ -54,10 +77,23 @@ for filename in os.listdir(input_directory):
         input_file = os.path.join(input_directory, filename)
         # Construct the output file path
         output_file = os.path.join(output_directory, f"{os.path.splitext(filename)[0]}.pdf")
+        # Delete old file if it exists
+        delete_if_exists(output_file)
         # Export PCB to PDF
         export_pcb_to_pdf(input_file, output_file)
-        # Collect the PDF files for merging
+        # Collect the PDF file for merging
         pdf_files.append(output_file)
+        
+        # Export detailed PDF Version
+        # Construct the output file path
+        output_file_detailed = os.path.join(output_directory, f"{os.path.splitext(filename)[0]}_detailed.pdf")
+        # Delete old file if it exists
+        delete_if_exists(output_file_detailed)
+        # Export PCB to PDF
+        export_pcb_to_pdf_detailed(input_file, output_file_detailed)
+        # Collect the detailed PDF file for merging
+        pdf_files.append(output_file_detailed)
+        
         # Export PCB to STEP
         # export_pcb_to_step(input_file, output_file)
 
@@ -68,6 +104,7 @@ for pdf_file in pdf_files:
 
 # Write the merged PDF to the output directory
 merged_pdf_file = os.path.join(output_directory, "merged.pdf")
+delete_if_exists(merged_pdf_file)
 merger.write(merged_pdf_file)
 merger.close()
 
