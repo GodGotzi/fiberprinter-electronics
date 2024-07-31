@@ -25,14 +25,6 @@ jobs:
     - name: Install KiCad
       run: sudo apt install --install-recommends -y kicad
 
-    - name: Set up Python environment
-      run: python3 -m venv myenv
-
-    - name: Activate virtual environment
-      run: source myenv/bin/activate && pip install PyPDF2
-
-    - name: Run script.py
+    - name: Run python script
       run: |
-        source myenv/bin/activate
-        python printhead.py
-        python piShield.py
+        python3 workflow.py
