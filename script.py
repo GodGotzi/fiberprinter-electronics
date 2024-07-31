@@ -94,8 +94,13 @@ for filename in os.listdir(input_directory):
         # Collect the detailed PDF file for merging
         pdf_files.append(output_file_detailed)
         
+        
+        # Construct the output file path
+        output_file_step = os.path.join(output_directory, f"{os.path.splitext(filename)[0]}_step.step")
+        # Delete old file if it exists
+        delete_if_exists(output_file_step)
         # Export PCB to STEP
-        # export_pcb_to_step(input_file, output_file)
+        export_pcb_to_step(input_file, output_file_step)
 
 # Merge all PDF files into a single PDF
 merger = PdfMerger()
