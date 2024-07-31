@@ -1,4 +1,4 @@
-#!/home/jantr/github/fiberprinter-electronics/myenv/bin/python3
+#!/home/jan/github/fiberprinter-electronics/myenv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
