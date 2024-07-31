@@ -1,0 +1,42 @@
+name: Setup and Run Script
+
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  setup_and_run:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Add KiCad repository
+      run: sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
+
+    - name: Update package lists
+      run: sudo apt update
+
+    - name: Install KiCad
+      run: sudo apt install -y kicad
+
+    - name: Set up Python environment
+      run: python3 -m venv myenv
+
+    - name: Activate virtual environment
+      run: source myenv/bin/activate && pip install PyPDF2
+
+    - name: Run merge_pdfs.py script
+      run: |
+        source myenv/bin/activate
+        python merge_pdfs.py
+
+    - name: Run script.py
+      run: |
+        source myenv/bin/activate
+        python script.py
