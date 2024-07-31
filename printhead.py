@@ -6,6 +6,11 @@ from PyPDF2 import PdfMerger
 input_directory = './printhead-pcb/'  # Change this to the directory where your .kicad_sch files are located
 output_directory = './printhead-pcb-export/'  # Change this to your desired output directory
 
+# Check if the directory exists
+if not os.path.exists(output_directory):
+    # Create the directory
+    os.makedirs(output_directory)
+
 # Function to delete file if it exists
 def delete_if_exists(file_path):
     if os.path.exists(file_path):
