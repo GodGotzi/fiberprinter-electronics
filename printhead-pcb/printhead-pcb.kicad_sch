@@ -2990,37 +2990,6 @@
 		)
 		(uuid "8e315a22-a3a7-453e-b784-d7f0e7c8a915")
 	)
-	(label "Power"
-		(at 64.77 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b8942c7-0513-4f74-a4c2-c841f4cfc4c0")
-		(property "big" "12V"
-			(at 64.77 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "small" "5V"
-			(at 64.77 57.531 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DSCLP"
 		(shape input)
 		(at 265.43 54.61 0)
