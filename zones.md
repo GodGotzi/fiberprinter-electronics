@@ -38,3 +38,5 @@
   - Maintain proper clearance settings and use thermal reliefs for component pads.
 
 By implementing these practices, you can significantly enhance the EMI performance and overall functionality of your PCB designs.
+
+TO FIX THE ERROR "ISOLATED COPPER FILLS" TURN ON "REMOVE ISLANDS" IN FILLING ZONE.
