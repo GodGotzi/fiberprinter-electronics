@@ -7,6 +7,7 @@ dirs = ["printhead-pcb", "pi-shield-pcb"]
 # Make sure output directory gets freshly created
 if os.path.exists("export"):
     shutil.rmtree("export")
+    print("Deleted existing export directory.")
 os.makedirs("export")
 
 # Make sure the input directory exists
@@ -50,6 +51,7 @@ def run_kicad_cli_command(command_type, file_type, input_file, output_file, *arg
 def export_sch_to_pdf(dir, filename):
     input_file = make_input_directory(dir, ".kicad_sch")
     output_file = make_output_directory(dir, filename)
+    print(input_file + " -> " + output_file)
     run_kicad_cli_command("pdf", "sch", input_file, output_file)
 
 # Function to run kicad-cli command for BOM files
