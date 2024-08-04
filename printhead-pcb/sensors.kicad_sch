@@ -1635,6 +1635,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 26.67) (xy 83.82 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4684e4-2003-4084-b8aa-adaf79e043f0")
+	)
+	(wire
+		(pts
 			(xy 151.13 114.3) (xy 147.32 114.3)
 		)
 		(stroke
@@ -1652,6 +1662,16 @@
 			)
 		)
 		(uuid "02485f56-e156-4ecd-959c-5ff2e493fc29")
+	)
+	(text "+3V3 als Refernzspannung verwendet für die full-stack voltage range von +-4.096V\n"
+		(exclude_from_sim no)
+		(at 94.234 20.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6266d7c0-6ea2-441c-83c4-bbe6d9c838f3")
 	)
 	(text "I2C-ADC  Chip\n"
 		(exclude_from_sim no)
@@ -1906,6 +1926,28 @@
 		(uuid "6788d1c1-3ab7-4c49-a1fa-09ebd73f8745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 143.5486 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AREF"
+		(shape input)
+		(at 67.31 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "711bb5f6-5566-41da-bcec-6687bc1aac0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.7286 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,6 +4192,71 @@
 			(project "printhead-pcb"
 				(path "/813ad687-b864-44a5-b729-c4edf26b731d/d982b328-ddd9-44a5-ac14-a8d69a1e9eb0"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 83.82 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1bafa6c-c670-419c-9e7b-9d2b93085823")
+		(property "Reference" "#PWR086"
+			(at 80.01 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 90.17 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 83.82 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9486fec3-32b1-4b2c-9964-0b15ecb1ed2b")
+		)
+		(instances
+			(project "printhead-pcb"
+				(path "/813ad687-b864-44a5-b729-c4edf26b731d/d982b328-ddd9-44a5-ac14-a8d69a1e9eb0"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
