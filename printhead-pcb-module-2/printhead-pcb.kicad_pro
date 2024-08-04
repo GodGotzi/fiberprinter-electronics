@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 1.95
+          "height": 0.25,
+          "width": 1.1
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -63,10 +63,7 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [
-        "holes_co_located|161500000|106650000|73a04db6-f5b9-42ee-8df4-4e5df02ce5f6|39301809-b24d-4ac8-98bc-7aa0df5c952c",
-        "holes_co_located|173500000|106650000|7f06dd51-6a51-41b9-8201-5d07655ed858|ebf75462-627b-4840-b76f-340c71d4d3a7"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -191,6 +188,7 @@
         0.0,
         0.3,
         0.35,
+        0.5,
         0.6
       ],
       "tuning_pattern_settings": {
