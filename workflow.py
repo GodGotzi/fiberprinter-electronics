@@ -62,35 +62,30 @@ def export_sch_to_bom(dir, filename):
 
 # Function to run kicad-cli command for PCB files
 def export_pcb_to_pdf(dir, filename):
-    input_file = make_input_directory(dir, ".kicad_pcb")
-    output_file = make_output_directory(dir, filename)
-    run_kicad_cli_command("pdf", "pcb", input_file, output_file, "--layers", ",".join(pcb_layers), "--exclude-value", "--exclude-refdes","--include-border-title")
-    # no-text-
-    output_file = make_output_directory(dir, "detail-8-10-" + filename)
-    run_kicad_cli_command("pdf", "pcb", input_file, output_file, "--layers", ",".join(pcb_layers), "--exclude-value", "--exclude-refdes", "--include-border-title")
-    # mirrored-no-text-
-    output_file = make_output_directory(dir, "mirrored-detail-8-10-" + filename)
-    run_kicad_cli_command("pdf", "pcb", input_file, output_file, "--layers", ",".join(pcb_layers), "--exclude-value", "--exclude-refdes", "--include-border-title", "--mirror")
-    # no-text-no-courtyard-
-    output_file = make_output_directory(dir, "detail-7-10-" + filename)
-    # substitute = ["CrtYd", "User", "Margin", "Fab", "SilkS"]
-    substitute = ["CrtYd"]
-    run_kicad_cli_command("pdf", "pcb", input_file, output_file, 
-                          "--layers", ",".join(layer for layer in pcb_layers if all(sub not in layer for sub in substitute)),
-                          "--exclude-value", "--exclude-refdes", "--include-border-title")
-    # no-text-no-courtyard-no-silkscreens-
-    output_file = make_output_directory(dir, "detail-6-10-" + filename)
-    substitute = ["CrtYd", "SilkS"]
-    run_kicad_cli_command("pdf", "pcb", input_file, output_file, 
-                          "--layers", ",".join(layer for layer in pcb_layers if all(sub not in layer for sub in substitute)),
-                          "--exclude-value", "--exclude-refdes", "--include-border-title")
-    # no-text-no-courtyard-no-silkscreens-no-fab-
-    output_file = make_output_directory(dir, "detail-4-10-" + filename)
-    substitute = ["CrtYd", "SilkS", "Fab"]
-    run_kicad_cli_command("pdf", "pcb", input_file, output_file, 
-                          "--layers", ",".join(layer for layer in pcb_layers if all(sub not in layer for sub in substitute)),
-                          "--exclude-value", "--exclude-refdes", "--include-border-title")
+    # Define configurations for different PDF exports
+    configs = [
+        {"suffix": "pcb-", "exclude_layers": []},
+        {"suffix": "front-", "exclude_layers": ["B."]},
+        {"suffix": "back-", "exclude_layers": ["F."]},
+        {"suffix": "back-mirrored-", "exclude_layers": ["F."], "mirror": True},
+        {"suffix": "front-noCrtYd-", "exclude_layers": ["CrtYd"]},
+        {"suffix": "front-noCrtYd-noSilkS-", "exclude_layers": ["CrtYd", "SilkS"]},
+        {"suffix": "front-noCrtYd-noSilkS-noFab-", "exclude_layers": ["CrtYd", "SilkS", "Fab"]},
+    ]
 
+    for config in configs:
+        # Prepare output file name and filter pcb_layers
+        output_file_suffix = config["suffix"] + filename
+        output_file = make_output_directory(dir, output_file_suffix)
+        filtered_layers = [layer for layer in pcb_layers if all(sub not in layer for sub in config["exclude_layers"])]
+
+        # Construct command arguments
+        command_args = ["pdf", "pcb", make_input_directory(dir, ".kicad_pcb"), output_file, "--layers", ",".join(filtered_layers), "--exclude-value", "--exclude-refdes", "--include-border-title"]
+        if config.get("mirror"):
+            command_args.append("--mirror")
+
+        # Execute the command
+        run_kicad_cli_command(*command_args)
 
 # Function to run kicad-cli command for PCB files to STEP
 def export_pcb_to_step(dir, filename):
