@@ -64,13 +64,13 @@ def export_sch_to_bom(dir, filename):
 def export_pcb_to_pdf(dir, filename):
     # Define configurations for different PDF exports
     configs = [
-        {"suffix": "pcb-", "exclude_layers": []},
+        # {"suffix": "pcb-", "exclude_layers": []},
         {"suffix": "front-", "exclude_layers": ["B."]},
         {"suffix": "back-", "exclude_layers": ["F."]},
         {"suffix": "back-mirrored-", "exclude_layers": ["F."], "mirror": True},
-        {"suffix": "front-noCrtYd-", "exclude_layers": ["CrtYd"]},
-        {"suffix": "front-noCrtYd-noSilkS-", "exclude_layers": ["CrtYd", "SilkS"]},
-        {"suffix": "front-noCrtYd-noSilkS-noFab-", "exclude_layers": ["CrtYd", "SilkS", "Fab"]},
+        {"suffix": "front-noCrtYd-", "exclude_layers": ["F.", "CrtYd"]},
+        {"suffix": "front-noCrtYd-noSilkS-", "exclude_layers": ["F.", "CrtYd", "SilkS"]},
+        {"suffix": "front-noCrtYd-noSilkS-noFab-", "exclude_layers": ["F.", "CrtYd", "SilkS", "Fab"]},
     ]
 
     for config in configs:
