@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "ECS-160-18-4X-CKM"
-			(at -4.323 -4.5773 0)
+			(at -9.906 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28,7 +28,7 @@
 			)
 		)
 		(property "Footprint" "ECS-160-18-4X-CKM:XTAL_ECS-160-18-4X-CKM"
-			(at 0 0 0)
+			(at -0.762 6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46,7 +46,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Quartz Oscillator"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font

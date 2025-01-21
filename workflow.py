@@ -2,7 +2,7 @@ import os
 import subprocess
 import shutil
 
-dirs = ["printhead-pcb", "pi-shield-pcb"]
+dirs = ["printhead-pcb", "pi-shield-pcb", "2nd-mainboard-pcb"]
 
 # Make sure output directory gets freshly created
 if os.path.exists("export"):

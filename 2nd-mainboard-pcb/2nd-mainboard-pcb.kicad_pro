@@ -428,7 +428,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "RelativeSymJan",
+      "New_Library"
+    ]
   },
   "meta": {
     "filename": "2nd-mainboard-pcb.kicad_pro",
@@ -590,6 +593,10 @@
     [
       "6926a609-8b92-4b3a-88c8-3d023174b977",
       "Root"
+    ],
+    [
+      "2814f85c-0b7e-4ab3-b3e5-bcf29424baab",
+      "Atmega"
     ]
   ],
   "text_variables": {}
