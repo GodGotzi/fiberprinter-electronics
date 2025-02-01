@@ -597,6 +597,14 @@
     [
       "2814f85c-0b7e-4ab3-b3e5-bcf29424baab",
       "Atmega"
+    ],
+    [
+      "14240b98-f570-417b-af10-6e4a6547c4a4",
+      "Motor Driver"
+    ],
+    [
+      "4a371be2-d5d9-4856-93da-432c037b0326",
+      "Breakoff Board"
     ]
   ],
   "text_variables": {}
