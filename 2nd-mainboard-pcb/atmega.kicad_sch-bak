@@ -3772,16 +3772,6 @@
 		)
 		(uuid "ff8203a4-1e0b-4654-a11f-d9150bae4e1c")
 	)
-	(text "DRV8871 hier verbauen\n"
-		(exclude_from_sim no)
-		(at 234.188 17.272 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "30e1de0e-257d-46d9-8f45-f38bdc4b7745")
-	)
 	(text "Spannungsteiler/Auswertung der Temperatur Sensoren\n"
 		(exclude_from_sim no)
 		(at 147.574 101.6 0)
