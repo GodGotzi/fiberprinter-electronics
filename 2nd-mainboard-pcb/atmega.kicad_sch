@@ -2894,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 26.67) (xy 71.12 25.4)
+			(xy 142.24 87.63) (xy 142.24 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2904,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 26.67) (xy 71.12 26.67)
+			(xy 133.35 87.63) (xy 142.24 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4550,7 +4550,7 @@
 	)
 	(global_label "AREF"
 		(shape input)
-		(at 62.23 26.67 180)
+		(at 133.35 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4560,7 +4560,7 @@
 		)
 		(uuid "aa08a1e0-49a8-462f-9a24-a42519b5acc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.6486 26.67 0)
+			(at 125.7686 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5565,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 71.12 25.4 0)
+		(at 142.24 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5574,7 +5574,7 @@
 		(fields_autoplaced yes)
 		(uuid "258b244b-8593-4599-84d0-5e7626f0c57f")
 		(property "Reference" "#PWR024"
-			(at 71.12 29.21 0)
+			(at 142.24 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +5583,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 71.12 20.32 0)
+			(at 142.24 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5591,7 +5591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 25.4 0)
+			(at 142.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5600,7 +5600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 25.4 0)
+			(at 142.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5609,7 +5609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 71.12 25.4 0)
+			(at 142.24 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

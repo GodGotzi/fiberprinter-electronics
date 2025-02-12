@@ -2521,16 +2521,16 @@
 		)
 		(uuid "99f28696-f000-49c0-b5bb-24fd1d2f4d7b")
 	)
-	(text "Leitungen, die übertragen werde müssen\n12V (Wenn möglich)\nGND\n5V\n3V3\nADC0\nADC1\nADC2\nADC3\n"
+	(text "Leitungen, die übertragen werde müssen\n\nStepper:\n12V\n5V\nGND\nSTEP\nDIR\nTX\nRX\n\nServo:\nData\n5V\nGND\n\nTemp-Sensoren:\nADC0\nADC1\nADC2\nADC3\n\nExtra:\nI2C - SCL\nI2C - DATA\n3V3\n\nGesamt-Anzahl: 15, also min 02x08\n"
 		(exclude_from_sim no)
-		(at 205.74 35.814 0)
+		(at 233.426 55.372 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "bf3361d8-ea9e-4e13-a112-0ee4f7decd58")
+		(uuid "a0c6d70f-b69b-4a9f-a319-84f32f882a8e")
 	)
 	(global_label "SCL"
 		(shape input)
