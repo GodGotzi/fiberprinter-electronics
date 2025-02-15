@@ -427,10 +427,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Imported_Component_Footprints"
+    ],
     "pinned_symbol_libs": [
       "RelativeSymJan",
-      "New_Library"
+      "New_Library",
+      "Imported_Component_Symbols"
     ]
   },
   "meta": {

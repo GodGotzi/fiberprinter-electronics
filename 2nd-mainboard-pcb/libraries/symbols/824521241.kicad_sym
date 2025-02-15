@@ -1,0 +1,71 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "WE-TVSP_DO-214AA_600W_BI" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at 1.27 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "WE-TVSP_DO-214AA_600W_BI" (id 1) (at -2.54 -3.81 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "WE-TVSP_DO-214AA_600W_BI:WE-TVSP_DO-214AA_BIDIRECTIONAL" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "WE-TVSP_DO-214AA_600W_BI_0_0"
+      (polyline
+        (pts
+          (xy -1.27 1.27)
+          (xy -1.27 -1.27)
+          (xy 1.27 0.0)
+          (xy -1.27 1.27)
+        )
+        (stroke (width 0.127)) (fill (type outline))
+      )
+      (polyline
+        (pts
+          (xy 3.81 -1.27)
+          (xy 3.81 1.27)
+          (xy 1.27 0.0)
+          (xy 3.81 -1.27)
+        )
+        (stroke (width 0.127)) (fill (type outline))
+      )
+      (polyline
+        (pts (xy 1.905 1.905) (xy 1.27 1.27)) (stroke (width 0.127))
+      )
+      (polyline
+        (pts (xy 1.27 1.27) (xy 1.27 -1.27)) (stroke (width 0.127))
+      )
+      (polyline
+        (pts (xy 1.27 -1.27) (xy 0.635 -1.905)) (stroke (width 0.127))
+      )
+      (polyline
+        (pts (xy -2.54 0.0) (xy -1.905 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -0.635 0.0) (xy -1.27 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 0.0) (xy 4.445 0.0)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.175 0.0) (xy 3.81 0.0)) (stroke (width 0.254))
+      )
+      (pin passive line (at -5.08 0.0 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 0.0 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
