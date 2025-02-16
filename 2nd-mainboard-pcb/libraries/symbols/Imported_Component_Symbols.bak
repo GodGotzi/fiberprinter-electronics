@@ -4873,7 +4873,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.32 10.16 0)
+			(at 0 7.366 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4881,7 +4881,7 @@
 			)
 		)
 		(property "Value" "TPM16050-S6TR"
-			(at 20.32 7.62 0)
+			(at 0 4.826 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4889,7 +4889,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Component_Footprints:TPM16050_S6TR"
-			(at 19.558 -14.986 0)
+			(at -1.524 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4899,7 +4899,7 @@
 			)
 		)
 		(property "Datasheet" "TPM16050-S6TR"
-			(at 20.32 -12.7 0)
+			(at -0.762 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4909,7 +4909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -16.51 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4938,7 @@
 		(symbol "TPM16050-S6TR_0_1"
 			(polyline
 				(pts
-					(xy 7.62 -10.16) (xy 33.02 -10.16)
+					(xy -8.89 -7.62) (xy 8.89 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -4950,7 +4950,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -10.16)
+					(xy -8.89 2.54) (xy -8.89 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -4962,7 +4962,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -10.16) (xy 33.02 5.08)
+					(xy 8.89 -7.62) (xy 8.89 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -4974,7 +4974,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
+					(xy 8.89 2.54) (xy -8.89 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -4985,7 +4985,7 @@
 				)
 			)
 			(pin output line
-				(at 0 0 0)
+				(at -16.51 0 0)
 				(length 7.62)
 				(name "OUT2"
 					(effects
@@ -5003,7 +5003,7 @@
 				)
 			)
 			(pin power_out line
-				(at 0 -2.54 0)
+				(at -16.51 -2.54 0)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -5021,7 +5021,7 @@
 				)
 			)
 			(pin output line
-				(at 0 -5.08 0)
+				(at -16.51 -5.08 0)
 				(length 7.62)
 				(name "OUT1"
 					(effects
@@ -5039,7 +5039,7 @@
 				)
 			)
 			(pin power_in line
-				(at 40.64 -5.08 180)
+				(at 16.51 -5.08 180)
 				(length 7.62)
 				(name "VM"
 					(effects
@@ -5057,7 +5057,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 -2.54 180)
+				(at 16.51 -2.54 180)
 				(length 7.62)
 				(name "IN1"
 					(effects
@@ -5075,7 +5075,7 @@
 				)
 			)
 			(pin input line
-				(at 40.64 0 180)
+				(at 16.51 0 180)
 				(length 7.62)
 				(name "IN2"
 					(effects
@@ -5102,7 +5102,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.254 21.844 0)
+			(at -0.254 15.494 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5110,7 +5110,7 @@
 			)
 		)
 		(property "Value" "TPS56837HRPAR"
-			(at 0 18.288 0)
+			(at 0 11.938 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5118,7 +5118,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Component_Footprints:TPS56837HRPAR"
-			(at 0 28.448 0)
+			(at 0 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5128,7 @@
 			)
 		)
 		(property "Datasheet" "TPS56837HRPAR"
-			(at -5.588 26.416 0)
+			(at -5.588 20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5138,7 +5138,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -15.24 11.43 0)
+			(at -12.7 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5167,7 @@
 		(symbol "TPS56837HRPAR_0_1"
 			(polyline
 				(pts
-					(xy -10.16 -12.7) (xy 10.16 -12.7)
+					(xy -7.62 -11.43) (xy 7.62 -11.43)
 				)
 				(stroke
 					(width 0.2032)
@@ -5179,7 +5179,7 @@
 			)
 			(polyline
 				(pts
-					(xy -10.16 16.51) (xy -10.16 -12.7)
+					(xy -7.62 10.16) (xy -7.62 -11.43)
 				)
 				(stroke
 					(width 0.2032)
@@ -5191,7 +5191,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 -12.7) (xy 10.16 16.51)
+					(xy 7.62 -11.43) (xy 7.62 10.16)
 				)
 				(stroke
 					(width 0.2032)
@@ -5203,7 +5203,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.16 16.51) (xy -10.16 16.51)
+					(xy 7.62 10.16) (xy -7.62 10.16)
 				)
 				(stroke
 					(width 0.2032)
@@ -5214,7 +5214,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 8.89 0)
+				(at -12.7 3.81 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -5232,7 +5232,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -8.89 0)
+				(at -12.7 -8.89 0)
 				(length 5.08)
 				(name "MODE"
 					(effects
@@ -5250,7 +5250,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 -1.27 180)
+				(at 12.7 -3.81 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -5268,7 +5268,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -8.89 180)
+				(at 12.7 -8.89 180)
 				(length 5.08)
 				(name "AGND"
 					(effects
@@ -5286,7 +5286,7 @@
 				)
 			)
 			(pin open_collector line
-				(at 15.24 2.54 180)
+				(at 12.7 -1.27 180)
 				(length 5.08)
 				(name "PG"
 					(effects
@@ -5304,7 +5304,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -15.24 -1.27 0)
+				(at -12.7 -3.81 0)
 				(length 5.08)
 				(name "SS"
 					(effects
@@ -5322,7 +5322,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 6.35 180)
+				(at 12.7 1.27 180)
 				(length 5.08)
 				(name "SW"
 					(effects
@@ -5340,7 +5340,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 15.24 12.7 180)
+				(at 12.7 6.35 180)
 				(length 5.08)
 				(name "BOOT"
 					(effects
@@ -5358,7 +5358,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 12.7 0)
+				(at -12.7 6.35 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -5376,7 +5376,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -5.08 180)
+				(at 12.7 -6.35 180)
 				(length 5.08)
 				(name "PGND"
 					(effects
