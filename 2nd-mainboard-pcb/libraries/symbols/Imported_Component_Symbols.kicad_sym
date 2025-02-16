@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "32A_MCH"
+		(property "Footprint" "Imported_Component_Footprints:ATMEGA328PB_AU"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52,14 +52,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "ATMEGA328PB-AU"
@@ -724,7 +716,7 @@
 			)
 		)
 		(property "Value" "ECS-160-18-4X-CKM"
-			(at -4.323 -4.5773 0)
+			(at -10.922 -4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,7 +724,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "ECS-160-18-4X-CKM:XTAL_ECS-160-18-4X-CKM"
+		(property "Footprint" "Imported_Component_Footprints:XTAL_ECS-160-18-4X-CKM"
 			(at -0.254 4.318 0)
 			(effects
 				(font
@@ -1551,7 +1543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRA08B"
+		(property "Footprint" "Imported_Component_Footprints:LM22676MRX_5_0_NOPB"
 			(at -3.556 6.858 0)
 			(effects
 				(font
@@ -1578,14 +1570,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "LM22676MRX-5.0/NOPB"
@@ -1842,7 +1826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TS7B"
+		(property "Footprint" "Imported_Component_Footprints:LM2679SX_12_NOPB"
 			(at -2.794 1.524 0)
 			(effects
 				(font
@@ -1869,14 +1853,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "LM2679SX-12/NOPB"
@@ -2115,7 +2091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC8E_MPS"
+		(property "Footprint" "Imported_Component_Footprints:MP1584EN_LF_Z"
 			(at -1.778 2.794 0)
 			(effects
 				(font
@@ -2142,14 +2118,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "MP1584EN-LF-Z"
@@ -2406,8 +2374,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SW_PTS647SM38SMTR2LFS_CNK"
-			(at -3.81 7.112 0)
+		(property "Footprint" "Imported_Component_Footprints:SW_PTS647SM38SMTR2LFS_CNK"
+			(at -2.794 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2385,7 @@
 			)
 		)
 		(property "Datasheet" "PTS647SM38SMTR2LFS"
-			(at -5.08 4.318 0)
+			(at -4.064 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,14 +2401,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "PTS647SM38SMTR2LFS"
@@ -2668,7 +2628,7 @@
 	)
 	(symbol "RJK0456DPB-00-J5"
 		(pin_names
-			(offset 0.254)
+			(offset 0)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2689,8 +2649,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LFPAK_REN"
-			(at -8.128 4.826 0)
+		(property "Footprint" "Imported_Component_Footprints:RJK0456DPB_00_J5"
+			(at 6.35 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2660,7 @@
 			)
 		)
 		(property "Datasheet" "RJK0456DPB-00-J5"
-			(at -6.096 7.62 0)
+			(at 8.382 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,14 +2676,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "RJK0456DPB-00#J5"
@@ -3008,10 +2960,12 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "RJK0456DPB-00-J5_1_1"
+			(pin passive line
 				(at 5.08 -7.62 90)
 				(length 2.54)
-				(name "1"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3026,10 +2980,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 7.62 -7.62 90)
 				(length 2.54)
-				(name "2"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3044,10 +2998,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 10.16 -7.62 90)
 				(length 2.54)
-				(name "3"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3062,10 +3016,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin input line
 				(at 0 0 0)
 				(length 2.54)
-				(name "4"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3080,10 +3034,10 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 7.62 7.62 270)
 				(length 2.54)
-				(name "5"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3123,7 +3077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN_S2B-XH-A-1LFSN_JST"
+		(property "Footprint" "Imported_Component_Footprints:CONN_S2B-XH-A-1LFSN_JST"
 			(at -0.254 10.668 0)
 			(effects
 				(font
@@ -3150,14 +3104,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "S2B-XH-A-1(LF)(SN)"
@@ -3495,6 +3441,501 @@
 			)
 		)
 	)
+	(symbol "S3B-XH-ALFSN"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 8.89 6.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "S3B-XH-ALFSN"
+			(at 8.89 -9.906 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Imported_Component_Footprints:S3B_XH_A_LF__SN_"
+			(at -0.508 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S3B-XH-ALFSN"
+			(at -2.54 6.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "S3B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "CONN_S3B-XH-ALFSN_JST"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "S3B-XH-ALFSN_1_1"
+			(polyline
+				(pts
+					(xy 5.08 -7.62) (xy 12.7 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -5.08) (xy 5.08 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -5.08) (xy 8.89 -5.9267)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -5.08) (xy 8.89 -4.2333)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 8.89 -3.3867)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 8.89 -1.6933)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 8.89 -0.8467)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 8.89 0.8467)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -7.62) (xy 12.7 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "S3B-XH-ALFSN_1_2"
+			(polyline
+				(pts
+					(xy 5.08 -7.62) (xy 12.7 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 5.08 -7.62)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 5.08 -5.08)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 8.89 -5.9267)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 8.89 -4.2333)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 5.08 -2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 8.89 -3.3867)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -2.54) (xy 8.89 -1.6933)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 8.89 -0.8467)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 0) (xy 8.89 0.8467)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -7.62) (xy 12.7 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 2.54) (xy 5.08 2.54)
+				)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at 0 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -2.54 0)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 -5.08 0)
+				(length 5.08)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "S4B-XH-A-1"
 		(pin_names
 			(offset 1.016)
@@ -3520,7 +3961,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "S4B-XH-A-1:JST_S4B-XH-A-1"
+		(property "Footprint" "Imported_Component_Footprints:JST_S4B-XH-A-1"
 			(at -4.826 9.906 0)
 			(effects
 				(font
@@ -3841,13 +4282,13 @@
 	)
 	(symbol "SQJ409EP-T1_GE3"
 		(pin_names
-			(offset 0.254)
+			(offset 0)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 11.43 -0.635 0)
+			(at 0 6.604 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3855,15 +4296,15 @@
 			)
 		)
 		(property "Value" "SQJ409EP-T1_GE3"
-			(at 22.606 3.048 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "DPAK5_P-T1_GE3_VIS"
-			(at -4.826 5.08 0)
+		(property "Footprint" "Imported_Component_Footprints:SQJ409EP_T1_GE3"
+			(at 2.286 -16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +4314,7 @@
 			)
 		)
 		(property "Datasheet" "SQJ409EP-T1_GE3"
-			(at -4.318 2.794 0)
+			(at 2.032 -18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,20 +4324,12 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -2.54 -7.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "SQJ409EP-T1_GE3"
@@ -3918,9 +4351,20 @@
 			)
 		)
 		(symbol "SQJ409EP-T1_GE3_0_1"
+			(circle
+				(center -2.54 0)
+				(radius 0.0254)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 4.445 0)
+					(xy -2.54 -5.08) (xy -2.54 -3.175)
 				)
 				(stroke
 					(width 0.2032)
@@ -3932,7 +4376,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.445 -5.08) (xy 4.445 0)
+					(xy -2.54 -0.635) (xy -2.54 0.635)
 				)
 				(stroke
 					(width 0.2032)
@@ -3944,7 +4388,115 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -7.62) (xy 10.16 -7.62)
+					(xy -1.905 -2.54) (xy -1.905 -0.635)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -0.635) (xy -2.54 -0.635)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 -0.635) (xy 0 -0.635)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0.635) (xy -2.54 0.635)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 1.27) (xy -0.635 0)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.778) (xy 0 -2.413)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -2.54) (xy -0.635 -2.54)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -2.54) (xy 1.905 -0.635)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 -0.635) (xy 2.54 -0.635)
 				)
 				(stroke
 					(width 0.127)
@@ -3956,7 +4508,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -5.08) (xy 5.08 -3.81)
+					(xy 2.54 -3.175) (xy -2.54 -3.175)
 				)
 				(stroke
 					(width 0.2032)
@@ -3968,7 +4520,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -4.445) (xy 6.985 -4.445)
+					(xy 2.54 -2.54) (xy 1.27 -2.54)
 				)
 				(stroke
 					(width 0.2032)
@@ -3980,7 +4532,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -3.175) (xy 5.08 -1.905)
+					(xy 2.54 -0.635) (xy 2.54 0.635)
 				)
 				(stroke
 					(width 0.2032)
@@ -3992,55 +4544,7 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -1.27) (xy 5.08 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -0.635) (xy 6.985 -0.635)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.842 -2.54) (xy 5.207 -2.54)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.985 -5.08) (xy 8.255 -5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.985 -4.445) (xy 6.985 -5.08)
+					(xy 2.54 0) (xy 5.08 0)
 				)
 				(stroke
 					(width 0.127)
@@ -4052,7 +4556,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.985 -0.635) (xy 6.985 -2.54)
+					(xy 2.54 0.635) (xy 0.635 0.635)
 				)
 				(stroke
 					(width 0.2032)
@@ -4064,31 +4568,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.985 -0.635) (xy 6.985 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 6.985 0) (xy 8.255 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -5.08) (xy 7.62 -7.62)
+					(xy 5.08 -2.54) (xy 5.08 2.54)
 				)
 				(stroke
 					(width 0.127)
@@ -4100,43 +4580,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.255 -5.08) (xy 8.255 -3.175)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.255 -1.905) (xy 8.255 0)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -1.905) (xy 7.62 -1.905)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.842 -3.175) (xy 7.112 -2.54) (xy 5.842 -1.905)
+					(xy 0.635 -1.778) (xy 0 -0.508) (xy -0.635 -1.778)
 				)
 				(stroke
 					(width 0)
@@ -4148,7 +4592,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -3.175) (xy 7.62 -3.175) (xy 8.255 -1.905)
+					(xy 0.635 1.27) (xy 0.635 0) (xy -0.635 0.635)
 				)
 				(stroke
 					(width 0)
@@ -4159,7 +4603,7 @@
 				)
 			)
 			(circle
-				(center 6.985 -4.445)
+				(center 1.905 -0.635)
 				(radius 0.0254)
 				(stroke
 					(width 0.508)
@@ -4170,7 +4614,7 @@
 				)
 			)
 			(circle
-				(center 7.62 -5.08)
+				(center 2.54 0)
 				(radius 0.0254)
 				(stroke
 					(width 0.508)
@@ -4180,21 +4624,12 @@
 					(type none)
 				)
 			)
-			(circle
-				(center 7.62 0)
-				(radius 0.0254)
-				(stroke
-					(width 0.508)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 5.08 -10.16 90)
+		)
+		(symbol "SQJ409EP-T1_GE3_1_1"
+			(pin passive line
+				(at 7.62 -2.54 180)
 				(length 2.54)
-				(name "S"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4209,10 +4644,10 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 7.62 -10.16 90)
+			(pin passive line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "S"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4227,8 +4662,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 10.16 -10.16 90)
+			(pin passive line
+				(at 7.62 2.54 180)
 				(length 2.54)
 				(name "S"
 					(effects
@@ -4245,8 +4680,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 0 0)
+			(pin input line
+				(at -2.54 -7.62 90)
 				(length 2.54)
 				(name "G"
 					(effects
@@ -4263,8 +4698,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 7.62 2.54 270)
+			(pin passive line
+				(at -5.08 0 0)
 				(length 2.54)
 				(name "D"
 					(effects
@@ -4285,13 +4720,13 @@
 	)
 	(symbol "SZ1SMB5927BT3G"
 		(pin_names
-			(offset 0.254)
+			(offset 0)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.32 10.16 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4299,15 +4734,15 @@
 			)
 		)
 		(property "Value" "SZ1SMB5927BT3G"
-			(at 20.32 7.62 0)
+			(at 0 7.62 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "SMB-2_4P60X3P95_ONS"
-			(at -2.794 10.922 0)
+		(property "Footprint" "Imported_Component_Footprints:SZ1SMB5927BT3G"
+			(at 1.016 15.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4752,7 @@
 			)
 		)
 		(property "Datasheet" "SZ1SMB5927BT3G"
-			(at -4.318 8.636 0)
+			(at -0.508 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,14 +4768,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "SZ1SMB5927BT3G"
@@ -4364,10 +4791,10 @@
 		(symbol "SZ1SMB5927BT3G_0_1"
 			(polyline
 				(pts
-					(xy 7.62 -5.08) (xy 33.02 -5.08)
+					(xy 1.27 0) (xy -1.27 0)
 				)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
@@ -4376,10 +4803,10 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 5.08) (xy 7.62 -5.08)
+					(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 				)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
@@ -4388,31 +4815,21 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -5.08) (xy 33.02 5.08)
+					(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 				)
 				(stroke
-					(width 0.127)
+					(width 0.254)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 33.02 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 0 0)
-				(length 7.62)
+		)
+		(symbol "SZ1SMB5927BT3G_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
 				(name "K"
 					(effects
 						(font
@@ -4428,9 +4845,9 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 40.64 0 180)
-				(length 7.62)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
 				(name "A"
 					(effects
 						(font
@@ -4471,8 +4888,8 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT23-6_TPK"
-			(at -3.302 3.302 0)
+		(property "Footprint" "Imported_Component_Footprints:TPM16050_S6TR"
+			(at 19.558 -14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4899,7 @@
 			)
 		)
 		(property "Datasheet" "TPM16050-S6TR"
-			(at -2.54 5.588 0)
+			(at 20.32 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,14 +4915,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "TPM16050-S6TR"
@@ -4676,6 +5085,307 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "TPS56837HRPAR"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -0.254 15.494 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS56837HRPAR"
+			(at 0 11.938 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Imported_Component_Footprints:TPS56837HRPAR"
+			(at 0 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "TPS56837HRPAR"
+			(at -5.588 20.066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at -12.7 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "TPS56837HRPAR"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "RPA0010A-MFG"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TPS56837HRPAR_0_1"
+			(polyline
+				(pts
+					(xy -7.62 -11.43) (xy 7.62 -11.43)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 10.16) (xy -7.62 -11.43)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -11.43) (xy 7.62 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 10.16) (xy -7.62 10.16)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -12.7 3.81 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -8.89 0)
+				(length 5.08)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 -3.81 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -8.89 180)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 12.7 -1.27 180)
+				(length 5.08)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 -3.81 0)
+				(length 5.08)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 1.27 180)
+				(length 5.08)
+				(name "SW"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 6.35 180)
+				(length 5.08)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -12.7 6.35 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -6.35 180)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)

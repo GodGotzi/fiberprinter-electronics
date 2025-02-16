@@ -5977,7 +5977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "389c76a3-fa75-42a2-9030-1a8e5ebe0058")
-		(property "Reference" "R7"
+		(property "Reference" "R6"
 			(at 163.83 115.5699 0)
 			(effects
 				(font
@@ -6031,7 +6031,7 @@
 		(instances
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/2814f85c-0b7e-4ab3-b3e5-bcf29424baab"
-					(reference "R7")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8086,7 +8086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7c0fdb1-b644-48d5-ba1d-c9bb5c66fbf4")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 134.62 115.5699 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 		(instances
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/2814f85c-0b7e-4ab3-b3e5-bcf29424baab"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)

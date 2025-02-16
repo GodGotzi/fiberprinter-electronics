@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "48510158-4934-413a-b426-23adcf58bd74")
+	(uuid "b0274c6d-21d3-4b7e-8e45-3d96f45934a5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle"
@@ -3751,7 +3751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1014c94d-2436-4f02-bac4-7eb39c293714")
-		(property "Reference" "R1"
+		(property "Reference" "R21"
 			(at 86.36 67.3099 0)
 			(effects
 				(font
@@ -3805,7 +3805,7 @@
 		(instances
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/c1b5568e-d56d-48b3-9b9c-ea1ab28283d3"
-					(reference "R1")
+					(reference "R21")
 					(unit 1)
 				)
 			)
