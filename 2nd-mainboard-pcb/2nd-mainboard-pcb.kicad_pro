@@ -604,6 +604,10 @@
       "Root"
     ],
     [
+      "c1b5568e-d56d-48b3-9b9c-ea1ab28283d3",
+      "USB-C Eingang"
+    ],
+    [
       "2814f85c-0b7e-4ab3-b3e5-bcf29424baab",
       "Atmega"
     ],
@@ -618,10 +622,6 @@
     [
       "28638253-982c-4307-a7ba-08631badaf4a",
       "Stacked PCB Design"
-    ],
-    [
-      "c1b5568e-d56d-48b3-9b9c-ea1ab28283d3",
-      "USB-C Eingang"
     ]
   ],
   "text_variables": {}
