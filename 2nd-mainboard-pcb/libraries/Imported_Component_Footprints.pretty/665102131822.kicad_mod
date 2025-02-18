@@ -1,0 +1,207 @@
+(footprint "665102131822"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "<b>WR-WTB</b><br>1.00 mm SMT Male Horizontal Shrouded, 2 pins")
+	(property "Reference" "REF**"
+		(at -4.932 -1.4464 0)
+		(layer "F.SilkS")
+		(uuid "5a4ba0b9-fd0e-4bc8-ae31-0631dd86e630")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "665102131822"
+		(at -7.7768 -0.1264 0)
+		(layer "F.Fab")
+		(uuid "37100c79-4e2f-4ab5-934e-cdf5fac29977")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0d0fccf-c096-4b70-972d-f712e66ebb0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f63b5475-971a-46f2-bf10-82c83df6025e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09e734a8-7a6a-4050-94c9-25e62b07e56e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.1 -1.695)
+		(end -2.1 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "711baa63-c890-4d4a-b9bb-eea0f4372dba")
+	)
+	(fp_line
+		(start -1.2 -1.695)
+		(end -2.1 -1.695)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c6500880-474b-4cbe-b342-a203652d9432")
+	)
+	(fp_line
+		(start -0.8 2.755)
+		(end 0.8 2.755)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "01e19504-863d-4d77-a161-0e7dcf8c029d")
+	)
+	(fp_line
+		(start 1.2 -1.695)
+		(end 2.1 -1.695)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8927007b-a364-4557-bd3c-6996467709cd")
+	)
+	(fp_line
+		(start 2.1 -1.695)
+		(end 2.1 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a973d483-d3d2-4d0f-87cf-1b7eb8dedce9")
+	)
+	(fp_circle
+		(center -1.3 -2.2)
+		(end -1.2 -2.2)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "766a9f67-a465-4889-89bf-faca87c54cdf")
+	)
+	(fp_poly
+		(pts
+			(xy -2.6 3.055) (xy 2.6 3.055) (xy 2.6 -2.9) (xy -2.6 -2.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.CrtYd")
+		(uuid "2741c686-17f6-4047-81c1-b0b3d551a736")
+	)
+	(fp_line
+		(start -2 -1.595)
+		(end 2 -1.595)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1d2f2794-31d2-4d92-a54d-748c61de1ad0")
+	)
+	(fp_line
+		(start -2 2.655)
+		(end -2 -1.595)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2dd02f6-506f-4c81-863e-e9113d4d2201")
+	)
+	(fp_line
+		(start 2 -1.595)
+		(end 2 2.655)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0cbcb645-bfd1-4f8d-8eee-231c63e8705a")
+	)
+	(fp_line
+		(start 2 2.655)
+		(end -2 2.655)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "542f5c11-02bd-4b3b-b58d-ac0eead34f59")
+	)
+	(pad "1" smd rect
+		(at -0.5 -1.92)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f0e67159-d96d-44d2-83e7-f0e218529a71")
+	)
+	(pad "2" smd rect
+		(at 0.5 -1.92)
+		(size 0.6 1.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1bc9159b-b952-45e6-b07f-94533305a47f")
+	)
+	(pad "Z1" smd rect
+		(at -1.8 1.855)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "863e97a0-fead-4766-819c-31f690832e08")
+	)
+	(pad "Z2" smd rect
+		(at 1.8 1.855)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "306d6c94-b53f-4e8d-92c5-1c2c02f32d5c")
+	)
+)

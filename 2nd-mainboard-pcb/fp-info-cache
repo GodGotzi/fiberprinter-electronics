@@ -1,4 +1,4 @@
-24711297333711452
+24721736876623133
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58499,6 +58499,13 @@ heatsink
 0
 0
 Imported_Component_Footprints
+665102131822
+<b>WR-WTB</b><br>1.00 mm SMT Male Horizontal Shrouded, 2 pins
+
+0
+4
+4
+Imported_Component_Footprints
 824521241
 <b>WE-TVSP Power TVS Diode<br><br></b>DO-214AA Bidirectional
 
@@ -58562,12 +58569,33 @@ FT232RL-REEL
 28
 28
 Imported_Component_Footprints
+FTSH-103-01-L-DH
+
+
+0
+6
+6
+Imported_Component_Footprints
+FTS_103_01_F_S
+
+FTS-103-01-F-S 
+0
+3
+3
+Imported_Component_Footprints
 GCT_USB4085-GF-A_REVB
 
 
 0
 20
 20
+Imported_Component_Footprints
+IHLP2525CZER3R3M11
+
+IHLP2525CZER3R3M11 
+0
+2
+2
 Imported_Component_Footprints
 JST_S4B-XH-A-1
 
@@ -58611,6 +58639,13 @@ MP1584EN-LF-Z
 9
 9
 Imported_Component_Footprints
+MPU-6050
+
+
+0
+24
+24
+Imported_Component_Footprints
 RJK0456DPB_00_J5
 
 RJK0456DPB-00-J5 
@@ -58624,6 +58659,13 @@ S3B-XH-ALFSN
 0
 3
 3
+Imported_Component_Footprints
+SPM10040T_4R7M_HZ
+
+SPM10040T-4R7M-HZ 
+0
+2
+2
 Imported_Component_Footprints
 SQJ409EP_T1_GE3
 
