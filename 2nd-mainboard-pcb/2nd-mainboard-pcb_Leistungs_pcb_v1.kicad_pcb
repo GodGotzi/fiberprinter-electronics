@@ -766,7 +766,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Component_Footprints:SZ1SMB5927BT3G"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c877f65-13e3-45e2-b8bf-de6d67a00226")
@@ -778,7 +778,7 @@
 			)
 		)
 		(property "Datasheet" "SZ1SMB5927BT3G"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eff3d6d8-6f4f-4619-8f24-d556b9586133")
@@ -790,7 +790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a3f3107-7812-4ff8-a97c-b7387113f1ae")
@@ -2411,7 +2411,7 @@
 		(at 52.4 47.7)
 		(descr "<b>WE-TVSP Power TVS Diode<br><br></b>DO-214AA Bidirectional")
 		(property "Reference" "D1"
-			(at 0 -3.23 0)
+			(at 0 -3.23 360)
 			(layer "F.SilkS")
 			(uuid "025fecb5-0fe6-4e5e-9ab8-92247134b000")
 			(effects
@@ -2422,7 +2422,7 @@
 			)
 		)
 		(property "Value" "WE-TVSP_DO-214AA_600W_BI"
-			(at 0 3.204 0)
+			(at 0 3.204 360)
 			(layer "F.Fab")
 			(uuid "e5973be3-4921-4ede-a828-1202b9e9c380")
 			(effects
@@ -2433,7 +2433,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Component_Footprints:824521241"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad5dec9e-5280-4a52-be55-17836e8a3ef8")
@@ -2445,7 +2445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d643441-d75d-4f1b-8d08-ddfe50854337")
@@ -2457,7 +2457,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c41bb108-b588-4420-bc84-dbf20cd3e200")
@@ -5691,7 +5691,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Component_Footprints:TPS56837HRPAR"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fd5c08f0-1d40-4c93-9a6c-e19852c6a3bc")
@@ -5704,7 +5704,7 @@
 			)
 		)
 		(property "Datasheet" "TPS56837HRPAR"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "740ff69c-c5db-41da-a8ab-c635724f8e56")
@@ -5717,7 +5717,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "e69f9746-6b6d-421c-a471-d90200a3ef05")
@@ -8964,7 +8964,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 1.17 0)
+			(at 0 1.17 360)
 			(layer "B.SilkS")
 			(uuid "fe2e88a3-73dd-401e-8c98-06cb663c05e9")
 			(effects
@@ -8976,7 +8976,7 @@
 			)
 		)
 		(property "Value" "30k"
-			(at 0 -1.17 0)
+			(at 0 -1.17 360)
 			(layer "B.Fab")
 			(uuid "0b9dd038-fabb-4ff2-8180-4961d2469451")
 			(effects
@@ -9135,7 +9135,7 @@
 			(uuid "91e836b1-bd13-45be-b9c3-5f6292d33c9d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "B.Fab")
 			(uuid "dfacdc28-51b3-4f3f-bee4-fa79c0d5946f")
 			(effects

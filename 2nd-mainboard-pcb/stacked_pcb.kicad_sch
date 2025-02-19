@@ -550,6 +550,684 @@
 				)
 			)
 		)
+		(symbol "Imported_Component_Symbols:HLE-107-02-L-DV"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -8.12 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "HLE-107-02-L-DV"
+				(at -7.62 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Imported_Component_Footprints:SAMTEC_HLE-107-02-L-DV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Samtec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "HLE-107-02-L-DV_0_0"
+				(rectangle
+					(start -7.62 -10.16)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Imported_Component_Symbols:TSM-107-04-L-DV"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -8.12 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TSM-107-04-L-DV"
+				(at -7.62 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Imported_Component_Footprints:SAMTEC_TSM-107-04-L-DV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "SAMTEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TSM-107-04-L-DV_0_0"
+				(rectangle
+					(start -7.62 -10.16)
+					(end 7.62 10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -12.7 7.62 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 7.62 180)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 5.08 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 2.54 0)
+					(length 5.08)
+					(name "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "05"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 2.54 180)
+					(length 5.08)
+					(name "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "06"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "07"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "08"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -2.54 0)
+					(length 5.08)
+					(name "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "09"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -2.54 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -5.08 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -7.62 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -7.62 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
@@ -1921,6 +2599,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 35.56) (xy 172.72 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab8dd7d-881f-473e-b480-ced1549e97cc")
+	)
+	(wire
+		(pts
 			(xy 52.07 86.36) (xy 57.15 86.36)
 		)
 		(stroke
@@ -1961,7 +2649,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 33.02) (xy 120.65 33.02)
+			(xy 123.19 33.02) (xy 120.65 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2158,16 +2846,6 @@
 			(type default)
 		)
 		(uuid "c0c0c76b-e320-4fb8-b675-4414984b6063")
-	)
-	(wire
-		(pts
-			(xy 170.18 35.56) (xy 172.72 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0df4399-f521-43db-930c-1c9344be5025")
 	)
 	(wire
 		(pts
@@ -2391,7 +3069,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 35.56) (xy 120.65 35.56)
+			(xy 123.19 35.56) (xy 120.65 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2514,6 +3192,28 @@
 		(uuid "025142ab-e97b-4ef3-9815-d3bc717e4255")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.0706 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BLT_Servo"
+		(shape input)
+		(at 170.18 35.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "039197ca-ab22-455f-b5ba-50623b855cf5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.7606 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,6 +3355,28 @@
 			)
 		)
 	)
+	(global_label "ADC3"
+		(shape input)
+		(at 123.19 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fd08b67-a003-40c0-9687-a6a8aa61ec44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.0133 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC0"
 		(shape input)
 		(at 44.45 33.02 180)
@@ -2668,6 +3390,28 @@
 		(uuid "1423627d-7526-4dfd-873d-a591774bf035")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.6267 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_3"
+		(shape input)
+		(at 170.18 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a4d1185-abd5-46ed-883a-dbb14168333e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.5706 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,28 +3509,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 170.18 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "38210574-1a64-4c3f-8302-158887802006")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6872 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA"
 		(shape input)
 		(at 60.96 45.72 0)
@@ -2800,72 +3522,6 @@
 		(uuid "386bee66-4f30-4b3f-b12c-3b9dca257201")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.5133 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED_3"
-		(shape input)
-		(at 186.69 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "38c26bf3-3e48-4712-bf70-046e06b8c7a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.2994 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RESET"
-		(shape input)
-		(at 170.18 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3ca55f9c-4ed6-4757-b80a-771cabb8a9a8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.4497 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC1"
-		(shape input)
-		(at 121.92 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3d34c894-673a-4da6-be07-7181dce7a131")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.7433 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,6 +3685,72 @@
 			)
 		)
 	)
+	(global_label "SMD_TEMP_1"
+		(shape input)
+		(at 170.18 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "51a4d198-42fb-442f-8910-ec7346a0cc98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.2812 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 186.69 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57e29b51-c6f6-420f-97e0-ecdf16a38928")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.4203 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 186.69 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "596f70f8-4bee-4655-8108-77487a225ac0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.2433 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 87.63 133.35 180)
@@ -3095,6 +3817,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 186.69 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66da4dea-f10c-43a9-87c1-e73508b85819")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.1828 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RESET"
 		(shape input)
 		(at 36.83 123.19 180)
@@ -3113,28 +3857,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BLT_Servo"
-		(shape input)
-		(at 186.69 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6bb86547-a034-4bdc-a026-f0f33f7ab4f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.1094 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3359,28 +4081,6 @@
 			)
 		)
 	)
-	(global_label "ADC2"
-		(shape input)
-		(at 121.92 43.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97d60222-01ee-4c01-9102-13f2c15c9f2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.7433 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL"
 		(shape input)
 		(at 106.68 48.26 180)
@@ -3421,6 +4121,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC0"
+		(shape input)
+		(at 121.92 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7692e7b-e4d1-4f40-a33d-f4d1a3e9c99a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.7433 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3513,28 +4235,6 @@
 			)
 		)
 	)
-	(global_label "ADC3"
-		(shape input)
-		(at 121.92 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf530d88-c4b8-44e7-9128-ce8da582924e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.7433 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC1"
 		(shape input)
 		(at 53.34 130.81 0)
@@ -3548,6 +4248,28 @@
 		(uuid "d8401ff8-dd3e-47f5-9bca-86b5fde59034")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 61.1633 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC2"
+		(shape input)
+		(at 123.19 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da31fc2e-76e4-489d-ab14-0444c1dd133c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.0133 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,6 +4367,28 @@
 			)
 		)
 	)
+	(global_label "ADC1"
+		(shape input)
+		(at 121.92 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1322996-b573-4db3-8283-b61b90f8070c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.7433 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC2"
 		(shape input)
 		(at 102.87 133.35 0)
@@ -3711,28 +4455,6 @@
 			)
 		)
 	)
-	(global_label "SMD_TEMP_1"
-		(shape input)
-		(at 186.69 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee7d46a2-57ff-42ba-9317-fd87d1526db2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.5888 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ADC2"
 		(shape input)
 		(at 44.45 43.18 180)
@@ -3777,47 +4499,118 @@
 			)
 		)
 	)
-	(global_label "SDA"
-		(shape input)
-		(at 170.18 48.26 180)
+	(symbol
+		(lib_id "Imported_Component_Symbols:TSM-107-04-L-DV")
+		(at 201.93 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fa9ab8bb-c9ff-4875-b2c5-7a21ce77ebb6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6267 48.26 0)
+		(uuid "00eb32e4-df69-447c-bf45-6178459c44dd")
+		(property "Reference" "J26"
+			(at 201.93 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
-	)
-	(global_label "ADC0"
-		(shape input)
-		(at 121.92 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb21b3fc-c394-4951-b40d-baa7c3b67391")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.7433 33.02 0)
+		(property "Value" "Steckverbinder_Male_Leistung"
+			(at 201.93 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Footprint" "Imported_Component_Footprints:SAMTEC_TSM-107-04-L-DV"
+			(at 201.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 201.93 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "09"
+			(uuid "d175775c-d3b0-4821-87b7-89fe943b3cbb")
+		)
+		(pin "06"
+			(uuid "2d4ae5e6-885a-4f62-85af-f49190fccdb9")
+		)
+		(pin "04"
+			(uuid "67a6113b-3c2b-45e0-9f56-db867c89654a")
+		)
+		(pin "08"
+			(uuid "0ff9fc7e-5abb-42f2-bf0c-f0216a8ce157")
+		)
+		(pin "07"
+			(uuid "29121a26-2eca-4c26-8636-e0576298d5f7")
+		)
+		(pin "02"
+			(uuid "a401bf66-5eec-4f7a-b990-bd4c07cf4f95")
+		)
+		(pin "05"
+			(uuid "24cfb470-3ba2-4a73-9cbe-4cbba4875062")
+		)
+		(pin "11"
+			(uuid "63733dfa-d0cb-4c6f-8c8f-5d2860394dcc")
+		)
+		(pin "01"
+			(uuid "f4d6b9ed-edee-4a1f-b441-b868ff0a3d4b")
+		)
+		(pin "12"
+			(uuid "1009d0f3-747e-4657-8878-179ec761d220")
+		)
+		(pin "14"
+			(uuid "e86ab9a2-904d-4d49-afd1-148266c6aee8")
+		)
+		(pin "03"
+			(uuid "3d6533c6-c009-4687-8450-a3c990a24147")
+		)
+		(pin "13"
+			(uuid "506b6b85-9630-45d9-ab44-4d30c17f5dee")
+		)
+		(pin "10"
+			(uuid "06db265e-ced5-4edc-b240-1e3194193fee")
+		)
+		(instances
+			(project "2nd-mainboard-pcb"
+				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/28638253-982c-4307-a7ba-08631badaf4a"
+					(reference "J26")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4346,6 +5139,121 @@
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/28638253-982c-4307-a7ba-08631badaf4a"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Imported_Component_Symbols:TSM-107-04-L-DV")
+		(at 193.04 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e21e615-82f6-4775-a366-d791fea370b0")
+		(property "Reference" "J24"
+			(at 193.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Steckverbinder_Male_Fans"
+			(at 193.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Imported_Component_Footprints:SAMTEC_TSM-107-04-L-DV"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "SAMTEC"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "09"
+			(uuid "539db6cd-7ddb-4181-a51f-a68f68376d16")
+		)
+		(pin "06"
+			(uuid "766ace48-566d-4ca2-8b1a-8251aab9f4ff")
+		)
+		(pin "04"
+			(uuid "bac69eba-af0c-4e2c-bcda-a4789b27cc35")
+		)
+		(pin "08"
+			(uuid "6fa62717-29d4-4b4f-9973-8d1f082ef329")
+		)
+		(pin "07"
+			(uuid "22370cd4-a818-4647-81c7-9ea99a04c704")
+		)
+		(pin "02"
+			(uuid "9bd4780e-262a-45ab-9955-e59294e58997")
+		)
+		(pin "05"
+			(uuid "0bd4fe85-d7d2-4e11-9be7-5fe1aa55d6bc")
+		)
+		(pin "11"
+			(uuid "871537ee-2308-4d79-840c-3fe7bdda5b5a")
+		)
+		(pin "01"
+			(uuid "814730ed-278b-4d40-b22c-f13a1f0f88a4")
+		)
+		(pin "12"
+			(uuid "592b5b63-1e07-4289-8582-fb93220feeb2")
+		)
+		(pin "14"
+			(uuid "4f934447-5f26-41ff-8e9b-b0a9a17a366f")
+		)
+		(pin "03"
+			(uuid "c9434b64-2cec-4623-889b-6ce09cd479e4")
+		)
+		(pin "13"
+			(uuid "c22f9239-978d-49b0-93f6-73467017a2cf")
+		)
+		(pin "10"
+			(uuid "3fb99fb2-8978-4c82-b928-7d6d65bdd961")
+		)
+		(instances
+			(project ""
+				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/28638253-982c-4307-a7ba-08631badaf4a"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -6619,6 +7527,141 @@
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/28638253-982c-4307-a7ba-08631badaf4a"
 					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Imported_Component_Symbols:HLE-107-02-L-DV")
+		(at 229.87 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbca9f73-b388-48c2-93ee-503b0bbf77af")
+		(property "Reference" "J25"
+			(at 229.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HLE-107-02-L-DV"
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Imported_Component_Footprints:SAMTEC_HLE-107-02-L-DV"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "R"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Samtec"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "09"
+			(uuid "3a789ac2-7f8e-452c-98d2-4a3bf462446a")
+		)
+		(pin "06"
+			(uuid "377d87c3-7754-4989-90e4-9bbbd62d1d02")
+		)
+		(pin "11"
+			(uuid "661c770a-7313-48b6-b8aa-706e8a5265ba")
+		)
+		(pin "02"
+			(uuid "58546d79-67c4-4553-908b-cf124d0392a6")
+		)
+		(pin "01"
+			(uuid "2aa60dc9-817d-4d4f-957c-c794e78aa1a8")
+		)
+		(pin "10"
+			(uuid "76f6820f-e99f-49cf-b267-75b127a6e16e")
+		)
+		(pin "03"
+			(uuid "7d276a5c-fddb-4be7-af30-9c9215461b84")
+		)
+		(pin "05"
+			(uuid "89d654ad-f816-4071-8503-50906a71ae30")
+		)
+		(pin "14"
+			(uuid "ba7a8dea-f755-4a8c-a182-a3e75f00fffd")
+		)
+		(pin "08"
+			(uuid "b7f53ac2-80e3-4a8d-ae0c-a5b37730745c")
+		)
+		(pin "13"
+			(uuid "93fa6b52-6a6a-4d1d-8514-ebd3ec4c6d84")
+		)
+		(pin "07"
+			(uuid "62d8b200-9967-4fa5-b44f-9c7764437bfe")
+		)
+		(pin "04"
+			(uuid "805e747a-1f43-48ed-a61c-e7bb738cf2bd")
+		)
+		(pin "12"
+			(uuid "ac956807-45e1-45c2-87f4-802352d9b115")
+		)
+		(instances
+			(project ""
+				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/28638253-982c-4307-a7ba-08631badaf4a"
+					(reference "J25")
 					(unit 1)
 				)
 			)
