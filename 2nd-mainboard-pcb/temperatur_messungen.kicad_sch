@@ -1533,7 +1533,7 @@
 	)
 	(text "Temperatur-Messunge am Fans-Modul"
 		(exclude_from_sim no)
-		(at 49.53 118.618 0)
+		(at 100.33 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1575,7 +1575,7 @@
 	)
 	(text "Temperatur-Messunge am Motoren-Modul"
 		(exclude_from_sim no)
-		(at 97.536 118.11 0)
+		(at 40.894 118.618 0)
 		(effects
 			(font
 				(size 1.27 1.27)
