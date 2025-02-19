@@ -1,4 +1,4 @@
-24721737087060983
+24726957045423880
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58534,6 +58534,13 @@ BF100-16-A-D-1-0640-L-C
 16
 16
 Imported_Component_Footprints
+CONN06_877600616_MOL_TEST
+
+877600616 
+0
+6
+6
+Imported_Component_Footprints
 CONN16_USB4085-GF-A_GCT
 
 USB4085-GF-A 
@@ -58659,6 +58666,20 @@ S3B-XH-ALFSN
 0
 3
 3
+Imported_Component_Footprints
+SAMTEC_HLE-107-02-L-DV
+
+
+0
+14
+14
+Imported_Component_Footprints
+SAMTEC_TSM-107-04-L-DV
+
+
+0
+14
+14
 Imported_Component_Footprints
 SPM10040T_4R7M_HZ
 

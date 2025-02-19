@@ -178,7 +178,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.0,
+        0.3,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -582,6 +585,10 @@
       {
         "netclass": "10A",
         "pattern": "PWR_IN_PROT"
+      },
+      {
+        "netclass": "6A",
+        "pattern": "AREF"
       }
     ]
   },
@@ -818,6 +825,10 @@
     [
       "4a371be2-d5d9-4856-93da-432c037b0326",
       "Breakoff Board"
+    ],
+    [
+      "47263415-9ddd-4248-9320-66b73ee498aa",
+      "Temperatur Messungen"
     ]
   ],
   "text_variables": {}
