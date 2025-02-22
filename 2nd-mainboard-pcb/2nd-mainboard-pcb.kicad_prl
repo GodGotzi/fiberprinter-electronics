@@ -68,10 +68,7 @@
       "Net-(U3-PG)",
       "Net-(U3-MODE)",
       "Net-(U4-VFB)",
-      "+5V_POW",
-      "Net-(D3-K)",
-      "Net-(D4-K)",
-      "Net-(D5-K)"
+      "+5V_POW"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
