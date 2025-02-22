@@ -1,0 +1,1 @@
+Eine Ferritperle dient dazu, hochfrequente Störungen auf der Versorgungsleitung zu unterdrücken, indem sie bei diesen Frequenzen eine hohe Impedanz aufweist. Dadurch wird das Rauschen reduziert und die Stabilität der Versorgungsspannung im System verbessert.
