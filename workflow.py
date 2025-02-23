@@ -11,22 +11,39 @@ if os.path.exists("export"):
 os.makedirs("export")
 
 # Make sure the input directory exists
+# def make_input_directory(dir, ending):
+#     input_filename = dir + ending
+#     input_directory = os.path.join(dir, input_filename)
+#     if not os.path.exists(input_directory):
+#         print(f"Error: The directory {input_directory} does not exist.")
+#     return input_directory
+
 def make_input_directory(dir, ending):
     input_filename = dir + ending
     input_directory = os.path.join(dir, input_filename)
     if not os.path.exists(input_directory):
         print(f"Error: The directory {input_directory} does not exist.")
+        return None
     return input_directory
 
 # Make sure the output directory is freshly created
+# def make_output_directory(dir, filename):
+#     dir = os.path.join("export", dir)
+#     if not os.path.exists(dir):
+#         os.makedirs(dir)
+#     dir = os.path.join(dir, filename)
+#     if os.path.exists(dir):
+#         os.remove(dir)
+#     return dir
+
 def make_output_directory(dir, filename):
     dir = os.path.join("export", dir)
-    if not os.path.exists(dir):
-        os.makedirs(dir)
-    dir = os.path.join(dir, filename)
-    if os.path.exists(dir):
-        os.remove(dir)
-    return dir
+    os.makedirs(dir, exist_ok=True)  # Sicherstellen, dass das Verzeichnis existiert
+    file_path = os.path.join(dir, filename)
+    if os.path.exists(file_path):
+        os.remove(file_path)
+    return file_path
+
 
 pcb_layers = [
     "F.Cu", "B.Cu", "F.Adhes", "B.Adhes", "F.Paste", "B.Paste",
@@ -39,20 +56,48 @@ pcb_layers = [
 ]
 
 # Generic function to run kicad-cli command
+# def run_kicad_cli_command(command_type, file_type, input_file, output_file, *args):
+#     command = ["kicad-cli", file_type, "export", command_type, "-o", output_file] + list(args) + [input_file]
+#     try:
+#         subprocess.run(command, check=True)
+#         print(f"Successfully created {command_type.upper()} for {file_type.upper()} {input_file}")
+#     except subprocess.CalledProcessError as e:
+#         print(f"Failed to create {command_type.upper()} for {file_type.upper()} {input_file}: {e}")
+
+# def run_kicad_cli_command(command_type, file_type, input_file, output_file, *args):
+#     if input_file is None or output_file is None:
+#         print(f"Skipping {command_type.upper()} for {file_type.upper()} due to missing input/output file.")
+#         return
+
+#     command = ["kicad-cli", file_type, "export", command_type, "-o", output_file] + list(args) + [input_file]
+#     try:
+#         subprocess.run(command, check=True)
+#         print(f"Successfully created {command_type.upper()} for {file_type.upper()} {input_file}")
+#     except subprocess.CalledProcessError as e:
+#         print(f"Failed to create {command_type.upper()} for {file_type.upper()} {input_file}: {e}")
+
 def run_kicad_cli_command(command_type, file_type, input_file, output_file, *args):
+    if input_file is None or output_file is None:
+        print(f"Skipping {command_type.upper()} for {file_type.upper()} due to missing input/output file.")
+        return
+
     command = ["kicad-cli", file_type, "export", command_type, "-o", output_file] + list(args) + [input_file]
     try:
-        subprocess.run(command, check=True)
+        result = subprocess.run(command, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
         print(f"Successfully created {command_type.upper()} for {file_type.upper()} {input_file}")
+        print(result.stdout)
     except subprocess.CalledProcessError as e:
         print(f"Failed to create {command_type.upper()} for {file_type.upper()} {input_file}: {e}")
+        print(f"Error details: {e.stderr}")
 
 # Function to run kicad-cli command for schematic files
 def export_sch_to_pdf(dir, filename):
     input_file = make_input_directory(dir, ".kicad_sch")
     output_file = make_output_directory(dir, filename)
     print(input_file + " -> " + output_file)
-    run_kicad_cli_command("pdf", "sch", input_file, output_file)
+    # run_kicad_cli_command("pdf", "sch", input_file, output_file)
+    run_kicad_cli_command("pdf", "pcb", make_input_directory(dir, ".kicad_pcb"), output_file, "--layers", ",".join(filtered_layers), "--exclude-value", "--exclude-refdes", "--include-border-title")
+    
 
 # Function to run kicad-cli command for BOM files
 def export_sch_to_bom(dir, filename):
