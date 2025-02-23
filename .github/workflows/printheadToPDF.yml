@@ -28,3 +28,9 @@ jobs:
     - name: Run python script
       run: |
         python3 workflow.py
+        
+    # - name: Add and Commit Exported Files
+    #   run: |
+    #     git add export/*
+    #     git commit -m "Automated commit: Added exported KiCad files"
+    #     git push
