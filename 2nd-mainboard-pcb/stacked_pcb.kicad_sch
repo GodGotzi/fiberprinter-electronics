@@ -1770,17 +1770,6 @@
 		)
 		(uuid "083cd61a-6f38-4a60-bfcb-3177650daa83")
 	)
-	(text "Leitungen, die übertragen werde müssen\n\nFans:\n12V\n5V\nGND\nPWM0\nPWM1\nPWM2\nPWM3\n\n\nExtra:\nI2C - SCL\nI2C - DATA\n3V3\n\nGesamt-Anzahl: 16, also min 02x08\n"
-		(exclude_from_sim no)
-		(at 237.998 131.064 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "265355db-b8b8-4dc1-b945-22ab121e5835")
-	)
 	(text "Modul 2: Atmega + Leistungs-Eingänge\n\n"
 		(exclude_from_sim no)
 		(at 141.478 19.558 0)
@@ -1820,17 +1809,6 @@
 			)
 		)
 		(uuid "99f28696-f000-49c0-b5bb-24fd1d2f4d7b")
-	)
-	(text "Leitungen, die übertragen werde müssen\n\nStepper:\n12V\n5V\nGND\nSTEP\nDIR\nTX\nRX\nRESET\n\nServo:\nData\n5V\nGND\n\nTemp-Sensoren:\nADC0\nADC1\nADC2\nADC3\n\nExtra:\nI2C - SCL\nI2C - DATA\n3V3\n\nGesamt-Anzahl: 16, also min 02x08\n\n\nOptional:\nBL-Touch Servo\nData_BLT\n5V\nGND\n\nBL-Touch IO\nBLT_Switch\nGND\n"
-		(exclude_from_sim no)
-		(at 131.572 147.066 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0c6d70f-b69b-4a9f-a319-84f32f882a8e")
 	)
 	(text "Modul 3: Motoren"
 		(exclude_from_sim no)
