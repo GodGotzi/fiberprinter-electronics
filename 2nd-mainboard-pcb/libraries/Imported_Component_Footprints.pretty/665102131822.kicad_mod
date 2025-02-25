@@ -204,4 +204,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "306d6c94-b53f-4e8d-92c5-1c2c02f32d5c")
 	)
+	(model "${KIPRJMOD}/libraries/3d_models/665102131822.step"
+		(offset
+			(xyz 0 -0.5 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

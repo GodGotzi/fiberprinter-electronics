@@ -330,4 +330,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "1ecf8d7e-408d-4a34-8d2b-21bdf19191e4")
 	)
+	(model "${KIPRJMOD}/libraries/3d_models/HLE-107-02-L-DV.step"
+		(offset
+			(xyz 0 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
