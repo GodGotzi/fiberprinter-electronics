@@ -6,7 +6,6 @@
     "hidden_netclasses": [],
     "hidden_nets": [
       "+12V",
-      "Net-(D3-K)",
       "ADC0",
       "ADC1",
       "ADC2",
