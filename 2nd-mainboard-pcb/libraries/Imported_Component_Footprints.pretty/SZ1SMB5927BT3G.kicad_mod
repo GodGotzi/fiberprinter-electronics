@@ -320,4 +320,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "5236778d-d6b2-4df1-a4a3-b7fa12190aab")
 	)
+	(model "${KIPRJMOD}/libraries/3d_models/SZ1SMB5927BT3G.step"
+		(offset
+			(xyz 0 0 1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

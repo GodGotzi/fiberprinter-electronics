@@ -590,4 +590,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "08f489b9-52e5-486b-9d8a-54e867e74fe5")
 	)
+	(model "${KIPRJMOD}/libraries/3d_models/SOT23-6_TPK.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

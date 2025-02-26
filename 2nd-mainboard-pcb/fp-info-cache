@@ -1,4 +1,4 @@
-24732239865925381
+24739203146404604
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58674,6 +58674,20 @@ MPU-6050
 24
 24
 Imported_Component_Footprints
+MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom_7mm
+Mounting Hole 2.7mm, M2.5, ISO7380
+mounting hole 2.7mm m2.5 iso7380
+0
+3
+1
+Imported_Component_Footprints
+MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom_111mm
+Mounting Hole 2.7mm, M2.5, ISO7380
+mounting hole 2.7mm m2.5 iso7380
+0
+3
+1
+Imported_Component_Footprints
 RJK0456DPB_00_J5
 
 RJK0456DPB-00-J5 
@@ -58689,6 +58703,13 @@ S3B-XH-ALFSN
 3
 Imported_Component_Footprints
 SAMTEC_HLE-107-02-L-DV
+
+
+0
+14
+14
+Imported_Component_Footprints
+SAMTEC_HW-07-08-L-D-250-SM
 
 
 0
@@ -58757,6 +58778,13 @@ XTAL_ECS-160-18-4X-CKM
 0
 2
 2
+Imported_Component_Footprints
+drv8825
+Pololu Breakout 16-pin 15.2x20.3mm 0.6x0.8\
+Pololu Breakout
+0
+16
+16
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height

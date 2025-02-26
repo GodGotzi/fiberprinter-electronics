@@ -224,4 +224,15 @@
 		(remove_unused_layers no)
 		(uuid "1eb05270-e801-4b8d-a1e6-c434f4a7a77f")
 	)
+	(model "${KIPRJMOD}/libraries/3d_models/S2B-XH-A-1--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 1.25 -7.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

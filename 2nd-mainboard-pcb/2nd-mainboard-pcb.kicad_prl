@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -18,7 +18,6 @@
       "FAN_3_PWM",
       "LED_2",
       "Net-(D6-K)",
-      "Fan_Versorgung",
       "Net-(U7-OUT1)",
       "Net-(U7-OUT2)",
       "Net-(U8-D)",

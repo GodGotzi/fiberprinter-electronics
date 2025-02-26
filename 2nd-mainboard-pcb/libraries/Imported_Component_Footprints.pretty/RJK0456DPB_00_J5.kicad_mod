@@ -553,4 +553,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7094510a-7e27-4fa3-8c8b-f97aa72b7616")
 	)
+	(model "${KIPRJMOD}/libraries/3d_models/LFPAK_REN.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

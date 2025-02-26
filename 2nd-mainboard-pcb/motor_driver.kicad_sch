@@ -4762,7 +4762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+		(property "Footprint" "Imported_Component_Footprints:drv8825"
 			(at 63.5 80.01 0)
 			(effects
 				(font
