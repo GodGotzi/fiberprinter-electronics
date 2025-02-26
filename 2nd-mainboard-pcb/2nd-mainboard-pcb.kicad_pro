@@ -633,7 +633,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "export_versions/V1.step",
+      "step": "export_versions/Modul_Leistung_Export.step",
       "svg": "",
       "vrml": ""
     },
