@@ -898,7 +898,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R25"
-			(at -0.0325 1.25 360)
+			(at -0.0325 1.25 0)
 			(layer "F.SilkS")
 			(uuid "2db03cf7-74a4-4b19-a00e-75926941d1b1")
 			(effects
@@ -909,7 +909,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "64336c63-6f72-45da-9499-f9f842f93474")
 			(effects
@@ -1064,7 +1064,7 @@
 			(uuid "e2d73123-b55e-4633-a753-59fbc70c4494")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7a57b38a-1ccc-47c6-842a-6d4a03f99017")
 			(effects
@@ -1111,7 +1111,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R24"
-			(at 0 -1.2 360)
+			(at 0 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "16be9275-d918-452b-b855-147a954917a8")
 			(effects
@@ -1122,7 +1122,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "272e01aa-2e0d-43a9-afa0-e51caccf0dd7")
 			(effects
@@ -1277,7 +1277,7 @@
 			(uuid "c83925d9-41fa-4248-8e74-b83d2476c29a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "1ac44c3a-e56b-47a4-ac2b-4a251c4a3a13")
 			(effects
@@ -2604,7 +2604,7 @@
 		(descr "Mounting Hole 2.7mm, M2.5, ISO7380")
 		(tags "mounting hole 2.7mm m2.5 iso7380")
 		(property "Reference" "REF**"
-			(at -2.88952 -3.25 -0)
+			(at -2.88952 -3.25 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "7a294694-4816-4343-a848-4293bc08b2bc")
@@ -4667,7 +4667,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C32"
-			(at 0 -1.23675 360)
+			(at 0 -1.23675 0)
 			(layer "F.SilkS")
 			(uuid "1270ad31-2dcf-4106-b9aa-af0ff3a1cfea")
 			(effects
@@ -4678,7 +4678,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "f31ad0d6-1f8c-4a6b-ad34-ef6d45fbf80d")
 			(effects
@@ -4833,7 +4833,7 @@
 			(uuid "56f801e9-f7bb-4473-b90d-09f6b5924603")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a83d0cb2-4592-42bd-a959-fe34cf4798ef")
 			(effects
@@ -13222,7 +13222,7 @@
 		(at 88.0225 82.4 90)
 		(descr "<b>WR-WTB</b><br>1.00 mm SMT Male Horizontal Shrouded, 2 pins")
 		(property "Reference" "J22"
-			(at 3.15 0.0775 360)
+			(at 3.15 0.0775 0)
 			(layer "F.SilkS")
 			(uuid "d36181a0-4457-493b-9106-e7304440a031")
 			(effects
@@ -13773,7 +13773,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D6"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "98457b58-4731-4491-9aef-df104dfe163c")
 			(effects
@@ -13784,7 +13784,7 @@
 			)
 		)
 		(property "Value" "YELLOW"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "d9dab814-8b62-486d-906c-ce19c3a38d91")
 			(effects
@@ -13959,7 +13959,7 @@
 			(uuid "40b053a1-c91c-42b8-8574-e2872774f0bd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3cfcd98f-93e2-4e5a-b14c-c6a67d773518")
 			(effects
@@ -18104,7 +18104,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C33"
-			(at -0.0175 1.2 360)
+			(at -0.0175 1.2 0)
 			(layer "F.SilkS")
 			(uuid "7840d3c8-1b6d-4058-bd32-0583ee304538")
 			(effects
@@ -18115,7 +18115,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "4950b5c4-3c44-48d7-82ae-026844d8821e")
 			(effects
@@ -18270,7 +18270,7 @@
 			(uuid "7a4c8d00-e2d0-419d-8b1b-d0e517c8b9ef")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7498f4c7-9d08-4423-8ee3-02c8c6af7305")
 			(effects
@@ -25526,7 +25526,7 @@
 		(at 88.03825 90.81325 90)
 		(descr "<b>WR-WTB</b><br>1.00 mm SMT Male Horizontal Shrouded, 2 pins")
 		(property "Reference" "J21"
-			(at 3.21325 0.01175 360)
+			(at 3.21325 0.01175 0)
 			(layer "F.SilkS")
 			(uuid "8cae22bd-dc79-4458-988c-b1a5389cdd26")
 			(effects
@@ -26131,7 +26131,7 @@
 		(uuid "fa30765f-9cce-4346-b1fa-80ffbfc9c5a7")
 		(at 127.77 112.65 180)
 		(property "Reference" "J24"
-			(at 17.62 1.25 360)
+			(at 17.62 1.25 0)
 			(layer "F.SilkS")
 			(uuid "15028fcd-284f-4f5d-b693-26cf60b11acd")
 			(effects
@@ -26142,7 +26142,7 @@
 			)
 		)
 		(property "Value" "Steckverbinder_Male_Leistung"
-			(at 14.24 3.453 360)
+			(at 14.24 3.453 0)
 			(layer "F.Fab")
 			(uuid "b3ba24e0-5a03-4632-908c-73016957fd93")
 			(effects
@@ -26153,7 +26153,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Component_Footprints:SAMTEC_HW-07-08-L-D-250-SM"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "39a3f2be-890b-4bb8-bbe3-9d2204568944")
@@ -26165,7 +26165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "520b7dd4-4658-47aa-9806-b3b35be37c10")
@@ -26177,7 +26177,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9efe62d7-5ff9-4bf1-93ac-9f793e4e3388")

@@ -1,0 +1,40 @@
+connectors:
+  J1:
+    type: "PJ-082BH "
+    pins: [1, 2, SH1, SH2, SH3, SH4, ]
+    pinlabels: [+24V, GND2, GND3, GND3, GND3, GND3, ]
+  J2:
+    type: "3D-Drucker-Netzteil "
+    pins: [1, 2]
+    pinlabels: [+24V, GND]
+
+cables:
+  "CF881-15-02":
+    wirecount: 2
+    gauge: 1.5 mm²
+    length: 2.0  # Falls die Kabellänge bekannt ist, sonst entfernen
+    category: shielded
+    shield:
+      type: braid
+      material: tin-plated copper
+      coverage: 60
+    color: BK  # Mantelfarbe (Jet Black ähnlich RAL 9005)
+    manufacturer: Igus
+    mpn: CF881-15-02
+    notes: "Flexibles Steuerkabel mit PVC-Mantel, geschirmt   "
+    # supplier: Cables R Us
+    # spn: 999-888-777
+    # pn: CAB1
+    # image:
+    #   src: resources/cable-BK+WH+numbered+shield.png
+    #   height: 70  # Bildgröße leicht verkleinern
+    #   caption: Querschnitt
+
+connections:
+  -
+    - J1: [1, 2]
+    - CF881-15-02: [1, 2]
+    - J2: [1, 2]
+  -
+    - J1: [SH1, SH2, SH3, SH4]
+    - CF881-15-02: [s, s, s, s]
