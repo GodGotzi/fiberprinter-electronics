@@ -1,0 +1,21 @@
+connectors:
+    J20:
+        type: T2
+        pins: [1, 2, Z1, Z2, ]
+        pinlabels: [GND, ADC1, , , ]
+    J22:
+        type: T3
+        pins: [1, 2, Z1, Z2, ]
+        pinlabels: [GND, ADC3, , , ]
+    J19:
+        type: T2
+        pins: [1, 2, Z1, Z2, ]
+        pinlabels: [GND, ADC0, , , ]
+    J21:
+        type: T2
+        pins: [1, 2, Z1, Z2, ]
+        pinlabels: [GND, ADC2, , , ]
+    J11:
+        type: T3
+        pins: [1, 2, Z1, Z2, ]
+        pinlabels: [GND, BLT_Switch, , , ]

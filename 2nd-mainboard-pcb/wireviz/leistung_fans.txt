@@ -1,0 +1,9 @@
+connectors:
+    J12:
+        type: Steckverbinder_Male_Fans
+        pins: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, ]
+        pinlabels: [GND, FAN_01_PWM_counterclockwise, +12V, FAN_01_PWM_clockwise, +5V_POW, SCL, AREF, ADC0, LED_2, ADC1, FAN_3_PWM, ADC2, FAN_2_PWM, ADC3, ]
+    J13:
+        type: Steckverbinder_Female_Leistung
+        pins: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14, ]
+        pinlabels: [GND, AREF, +12V, LED_2, +5V_POW, ADC0, FAN_01_PWM_clockwise, ADC1, FAN_01_PWM_counterclockwise, ADC2, FAN_3_PWM, ADC3, FAN_2_PWM, SCL, ]
