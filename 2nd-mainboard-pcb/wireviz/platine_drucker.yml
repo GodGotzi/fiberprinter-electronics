@@ -9,8 +9,8 @@ connectors:
     spn: 3477156
   J2:
     type: "3D-Drucker-Netzteil "
-    pins: [1, 2]
-    pinlabels: [+24V, GND]
+    pins: [1, 2, 3]
+    pinlabels: [+24V, GND, SHIELD]
 
 cables:
   "CF881-15-02":
@@ -43,3 +43,4 @@ connections:
   -
     - CF881-15-02: [s, s, s, s]
     - J1: [SH1, SH2, SH3, SH4]
+# Shield nur an einer seite verbinden um brummschleifen zu vermeiden

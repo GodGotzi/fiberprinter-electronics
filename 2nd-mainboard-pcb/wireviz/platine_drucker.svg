@@ -11,21 +11,25 @@
 <!-- J2 -->
 <g id="node1" class="node">
 <title>J2</title>
-<polygon fill="#ffffff" stroke="black" points="168.25,-186.38 0,-186.38 0,-91.38 168.25,-91.38 168.25,-186.38"/>
-<polygon fill="none" stroke="black" points="0,-162.62 0,-186.38 168.25,-186.38 168.25,-162.62 0,-162.62"/>
-<text text-anchor="start" x="77" y="-169.07" font-family="arial" font-size="14.00">J2</text>
-<polygon fill="none" stroke="black" points="0,-138.88 0,-162.62 130.25,-162.62 130.25,-138.88 0,-138.88"/>
-<text text-anchor="start" x="4" y="-145.32" font-family="arial" font-size="14.00">3D&#45;Drucker&#45;Netzteil </text>
-<polygon fill="none" stroke="black" points="130.25,-138.88 130.25,-162.62 168.25,-162.62 168.25,-138.88 130.25,-138.88"/>
-<text text-anchor="start" x="134.25" y="-145.32" font-family="arial" font-size="14.00">2&#45;pin</text>
-<polygon fill="none" stroke="black" points="0,-115.12 0,-138.88 96.5,-138.88 96.5,-115.12 0,-115.12"/>
-<text text-anchor="start" x="32.12" y="-121.58" font-family="arial" font-size="14.00">+24V</text>
-<polygon fill="none" stroke="black" points="96.5,-115.12 96.5,-138.88 168.25,-138.88 168.25,-115.12 96.5,-115.12"/>
-<text text-anchor="start" x="128.62" y="-121.58" font-family="arial" font-size="14.00">1</text>
-<polygon fill="none" stroke="black" points="0,-91.38 0,-115.12 96.5,-115.12 96.5,-91.38 0,-91.38"/>
-<text text-anchor="start" x="32.88" y="-97.83" font-family="arial" font-size="14.00">GND</text>
-<polygon fill="none" stroke="black" points="96.5,-91.38 96.5,-115.12 168.25,-115.12 168.25,-91.38 96.5,-91.38"/>
-<text text-anchor="start" x="128.62" y="-97.83" font-family="arial" font-size="14.00">2</text>
+<polygon fill="#ffffff" stroke="black" points="168.25,-187.25 0,-187.25 0,-68.5 168.25,-68.5 168.25,-187.25"/>
+<polygon fill="none" stroke="black" points="0,-163.5 0,-187.25 168.25,-187.25 168.25,-163.5 0,-163.5"/>
+<text text-anchor="start" x="77" y="-169.95" font-family="arial" font-size="14.00">J2</text>
+<polygon fill="none" stroke="black" points="0,-139.75 0,-163.5 130.25,-163.5 130.25,-139.75 0,-139.75"/>
+<text text-anchor="start" x="4" y="-146.2" font-family="arial" font-size="14.00">3D&#45;Drucker&#45;Netzteil </text>
+<polygon fill="none" stroke="black" points="130.25,-139.75 130.25,-163.5 168.25,-163.5 168.25,-139.75 130.25,-139.75"/>
+<text text-anchor="start" x="134.25" y="-146.2" font-family="arial" font-size="14.00">3&#45;pin</text>
+<polygon fill="none" stroke="black" points="0,-116 0,-139.75 104.75,-139.75 104.75,-116 0,-116"/>
+<text text-anchor="start" x="36.25" y="-122.45" font-family="arial" font-size="14.00">+24V</text>
+<polygon fill="none" stroke="black" points="104.75,-116 104.75,-139.75 168.25,-139.75 168.25,-116 104.75,-116"/>
+<text text-anchor="start" x="132.75" y="-122.45" font-family="arial" font-size="14.00">1</text>
+<polygon fill="none" stroke="black" points="0,-92.25 0,-116 104.75,-116 104.75,-92.25 0,-92.25"/>
+<text text-anchor="start" x="37" y="-98.7" font-family="arial" font-size="14.00">GND</text>
+<polygon fill="none" stroke="black" points="104.75,-92.25 104.75,-116 168.25,-116 168.25,-92.25 104.75,-92.25"/>
+<text text-anchor="start" x="132.75" y="-98.7" font-family="arial" font-size="14.00">2</text>
+<polygon fill="none" stroke="black" points="0,-68.5 0,-92.25 104.75,-92.25 104.75,-68.5 0,-68.5"/>
+<text text-anchor="start" x="28" y="-74.95" font-family="arial" font-size="14.00">SHIELD</text>
+<polygon fill="none" stroke="black" points="104.75,-68.5 104.75,-92.25 168.25,-92.25 168.25,-68.5 104.75,-68.5"/>
+<text text-anchor="start" x="132.75" y="-74.95" font-family="arial" font-size="14.00">3</text>
 </g>
 <!-- CF881&#45;15&#45;02 -->
 <g id="node3" class="node">
@@ -71,16 +75,16 @@
 <!-- J2&#45;&#45;CF881&#45;15&#45;02 -->
 <g id="edge1" class="edge">
 <title>J2:e&#45;&#45;CF881&#45;15&#45;02:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M168.25,-125C232.49,-125.01 248.48,-126.89 312.25,-126.88"/>
-<path fill="none" stroke="#ffffff" stroke-width="2" d="M168.25,-127C232.26,-127 248.24,-128.88 312.25,-128.88"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M168.25,-129C232.02,-128.99 248.01,-130.86 312.25,-130.87"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M168.25,-125.88C232.38,-125.88 248.37,-126.88 312.25,-126.88"/>
+<path fill="none" stroke="#ffffff" stroke-width="2" d="M168.25,-127.88C232.25,-127.88 248.25,-128.88 312.25,-128.88"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M168.25,-129.87C232.13,-129.87 248.12,-130.87 312.25,-130.87"/>
 </g>
 <!-- J2&#45;&#45;CF881&#45;15&#45;02 -->
 <g id="edge3" class="edge">
 <title>J2:e&#45;&#45;CF881&#45;15&#45;02:w</title>
-<path fill="none" stroke="#000000" stroke-width="2" d="M168.25,-101.25C232.23,-101.25 248.23,-101.13 312.25,-101.13"/>
-<path fill="none" stroke="#895956" stroke-width="2" d="M168.25,-103.25C232.25,-103.25 248.25,-103.12 312.25,-103.12"/>
-<path fill="none" stroke="#000000" stroke-width="2" d="M168.25,-105.25C232.27,-105.25 248.27,-105.12 312.25,-105.12"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M168.25,-102.13C232.13,-102.13 248.12,-101.13 312.25,-101.13"/>
+<path fill="none" stroke="#895956" stroke-width="2" d="M168.25,-104.12C232.25,-104.12 248.25,-103.12 312.25,-103.12"/>
+<path fill="none" stroke="#000000" stroke-width="2" d="M168.25,-106.12C232.38,-106.12 248.37,-105.12 312.25,-105.12"/>
 </g>
 <!-- J1 -->
 <g id="node2" class="node">

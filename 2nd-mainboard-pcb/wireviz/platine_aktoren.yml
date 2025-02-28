@@ -1,0 +1,48 @@
+connectors:
+  J7:
+      type: Stepper Motor
+      pins: [1, 2, 3, 4, ]
+      pinlabels: [STP_B2, STP_B1, STP_A2, STP_A1, ]
+  J8:
+      type: Servo Motor SM
+      pins: [1, 2, 3, ]
+      pinlabels: [GND, +5V_POW, MOSI, ]
+  J10:
+      type: Servo Motor BL Touch
+      pins: [1, 2, 3, ]
+      pinlabels: [GND, +5V_POW, BLT_Servo, ]
+  J4:
+      type: FAN1
+      pins: [1, 2, ]
+      pinlabels: [Net-(U7-OUT1), Net-(U7-OUT2), ]
+  J5:
+      type: FAN2
+      pins: [1, 2, ]
+      pinlabels: [Fan_Versorgung_23, Net-(U8-D), ]
+  J6:
+      type: FAN3
+      pins: [1, 2, ]
+      pinlabels: [Fan_Versorgung_23, Net-(U9-D), ]
+  J3:
+      type: FAN0
+      pins: [1, 2, ]
+      pinlabels: [Net-(U7-OUT1), Net-(U7-OUT2), ]
+
+
+cables:
+  W1:
+    wirecount: 4
+    length: 1
+    gauge: 0.25 mm2
+    color_code: IEC
+    # manufacturer: CablesCo
+    # mpn: ABC123
+    # supplier: Cables R Us
+    # spn: 999-888-777
+    # pn: CAB1
+
+connections:
+  -
+    - J7: [1, 2, 3]
+    - W1: [1-3]
+    - J3: [1, 1, 2]
