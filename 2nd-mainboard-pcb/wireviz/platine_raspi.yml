@@ -2,23 +2,27 @@ connectors:
   "USB_RPi":
     type: usb
     subtype: usb-a  # Oder "usb-micro" für den Micro-USB-Anschluss des Raspberry Pi
-    pins:
-      1: "VBUS (5V)"
-      2: "D-"
-      3: "D+"
-      4: "GND"
-      5: "Shield"
-  P1:
-    type: USB_C_Plug_USB2.0
-    pins: [A1, A4, A5, A6, A7, A8, A9, A12, B1, B4, B5, B6, B7, B8, B9, B12, S1, ]
-    pinlabels: [GND, AREF, Net-(P1-CC), USBD+, USBD-, , AREF, GND, GND, AREF, Net-(P1-VCONN), , , , AREF, GND, Net-(P1-SHIELD), ]
+    pins: [1, 2, 3, 4, 5]
+    pinlabels: [VBUS (5V), D-, D+, GND, Shield]
+  USB_C_Platine:
+      type: "USB_C_Receptacle_USB2.0  "
+      pins: [A1, A4, A5, A6, A7, A8, A9, A12, B1, B4, B5, B6, B7, B8, B9, B12, S1, ]
+      pinlabels: [GND, AREF, Net-(P1-CC1), USBD+, USBD-, SBU1, AREF, GND, GND, AREF, Net-(P1-CC2), USBD+, USBD-, SBU2, AREF, GND, Net-(P1-SHIELD), ] 
+      subtype: usb-c
+      manufacturer: '<a href="https://gct.co/">GCT</a>'
+      mpn: '<a href="https://www.digikey.at/en/products/detail/gct/USB4085-GF-A/9859662">USB4085-GF-A</a>'
+      supplier: Digikey
+      spn: 9859662  
 
 cables:
   "USB_Cable":
     wirecount: 4
-    gauge: 28 AWG (Data) / 24 AWG (Power)  # Typische Werte für USB-Kabel
+    gauge: 28 AWG
+    # gauge: 28 AWG (Data) / 24 AWG (Power)  # Typische Werte für USB-Kabel
     length: 1.0  # Länge in Metern, anpassen falls bekannt
     category: shielded
+    # show_equiv: true
+    color_code: DIN # auto-assign colors based on DIN 47100
     shield:
       type: braid
       material: tin-plated copper
@@ -27,16 +31,31 @@ cables:
     manufacturer: Generic  # Falls ein Hersteller bekannt ist, ersetzen
     mpn: USB_CABLE_XYZ  # Falls bekannt, ersetzen
     notes: "USB-Kabel für Daten- und Stromübertragung"
-    wires:
-      - color: RD
-        signal: "VBUS (5V)"
-      - color: WH
-        signal: "D-"
-      - color: GN
-        signal: "D+"
-      - color: BK
-        signal: "GND"
-      - color: Shield
-        signal: "Shield"
+    # wires:
+    #   - color: RD
+    #     signal: "VBUS (5V)"
+    #   - color: WH
+    #     signal: "D-"
+    #   - color: GN
+    #     signal: "D+"
+    #   - color: BK
+    #     signal: "GND"
+    #   - color: Shield
+    #     signal: "Shield"
 
-
+connections:
+  - # Verbindung der Datenleitungen
+    - USB_RPi: [1, 2, 3, 4]
+    - USB_Cable: [1, 2, 3, 4]
+  - # Verbindung der Datenleitungen
+    - USB_Cable: [1, 2, 3, 1, 1, 2, 3, 1]
+    - USB_C_Platine: [A4, A7, A6, A9, B4, B7, B6, B9]
+  - # Verbindung von GND
+    - USB_Cable: [4, 4, 4, 4] 
+    - USB_C_Platine: [A1, A12, B1, B12]
+  - # Verbindung des Schrims
+    - USB_RPi: [5]
+    - USB_Cable: [s]
+  - # Verbindung des Schrims
+    - USB_Cable: [s]
+    - USB_C_Platine: [S1]

@@ -5,29 +5,27 @@
 	(uuid "b0274c6d-21d3-4b7e-8e45-3d96f45934a5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Plug_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "P"
-				(at -10.16 19.05 0)
+			(property "Reference" "J"
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Plug_USB2.0"
-				(at 12.7 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -48,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Plug connector"
+			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +64,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "USB*C*Plug*"
+			(property "ki_fp_filters" "USB*C*Receptacle*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -88,8 +86,30 @@
 					)
 				)
 				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
 					(start 10.16 -2.286)
 					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -143,7 +163,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -344,7 +364,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Plug_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -402,7 +422,7 @@
 				(pin bidirectional line
 					(at 15.24 10.16 180)
 					(length 5.08)
-					(name "CC"
+					(name "CC1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -528,7 +548,7 @@
 				(pin bidirectional line
 					(at 15.24 7.62 180)
 					(length 5.08)
-					(name "VCONN"
+					(name "CC2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -536,6 +556,42 @@
 						)
 					)
 					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2328,6 +2384,12 @@
 		(uuid "6884b193-0baa-4b99-8285-eeee2dc41218")
 	)
 	(junction
+		(at 52.07 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a013685-7800-426e-98be-bc3d9c8b8bbc")
+	)
+	(junction
 		(at 63.5 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2350,6 +2412,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d21718e8-fd11-46c8-ad02-58eaca6fd5b3")
+	)
+	(junction
+		(at 52.07 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2d35c1c-cb86-49f0-aec3-e24b026d7571")
 	)
 	(junction
 		(at 71.12 29.21)
@@ -2647,6 +2715,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 63.5) (xy 52.07 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d29ce0e-fde2-4e6b-9cab-27cf39d7ff16")
+	)
+	(wire
+		(pts
 			(xy 96.52 130.81) (xy 96.52 134.62)
 		)
 		(stroke
@@ -2714,6 +2792,16 @@
 			(type default)
 		)
 		(uuid "9c18fcdb-650f-4d09-9272-b58e23e2d294")
+	)
+	(wire
+		(pts
+			(xy 52.07 58.42) (xy 52.07 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1dbccba-29eb-485d-8843-9f55a9f1667b")
 	)
 	(wire
 		(pts
@@ -3146,107 +3234,6 @@
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/c1b5568e-d56d-48b3-9b9c-ea1ab28283d3"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Plug_USB2.0")
-		(at 36.83 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0da0cf8e-00a5-406e-ba04-73e470f97dcd")
-		(property "Reference" "P1"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Plug_USB2.0"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
-			(at 40.64 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 40.64 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only Type-C Plug connector"
-			(at 36.83 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B5"
-			(uuid "915762f0-cf7e-4b39-af2f-5d83443cad84")
-		)
-		(pin "B9"
-			(uuid "da81faad-018c-4249-8fde-acefdd1436b5")
-		)
-		(pin "A9"
-			(uuid "02d6f825-7540-4f9c-a553-9dd7f6b4abd4")
-		)
-		(pin "B12"
-			(uuid "500714b9-e185-4405-a396-3ceed62a82e7")
-		)
-		(pin "B1"
-			(uuid "2f6b229b-9d6a-490b-a01b-630000c99c5b")
-		)
-		(pin "A12"
-			(uuid "7570e4fd-4494-4f00-8112-87bc97d99b7d")
-		)
-		(pin "A5"
-			(uuid "2d116a92-7a59-4ca9-8b82-96edbeb5000d")
-		)
-		(pin "A4"
-			(uuid "75ed6cf5-7ed5-4f13-aefb-0143f8e9e756")
-		)
-		(pin "A1"
-			(uuid "0b8e6c02-6406-4769-aea6-b862a99c1429")
-		)
-		(pin "B4"
-			(uuid "d89d5739-c02f-4e6a-be49-82a1c4a62931")
-		)
-		(pin "A7"
-			(uuid "46984a57-6566-4087-8790-a1c957cb3a22")
-		)
-		(pin "S1"
-			(uuid "d79207d4-2a15-488e-b366-8c5692760e0e")
-		)
-		(pin "A6"
-			(uuid "cc1c12c2-3584-4216-90bc-84798cd1b226")
-		)
-		(instances
-			(project ""
-				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/c1b5568e-d56d-48b3-9b9c-ea1ab28283d3"
-					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -4537,6 +4524,113 @@
 			(project "2nd-mainboard-pcb"
 				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/c1b5568e-d56d-48b3-9b9c-ea1ab28283d3"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
+		(at 36.83 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8839a68-09ac-42c8-8e39-a1baf531bf33")
+		(property "Reference" "P1"
+			(at 36.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(at 36.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+			(at 40.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 40.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 36.83 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A5"
+			(uuid "7396ca35-ca03-4574-b45c-09a2e5ff6220")
+		)
+		(pin "B5"
+			(uuid "ccb5192e-bd3b-4822-a71a-c2e8c7a13fba")
+		)
+		(pin "A4"
+			(uuid "41677e6e-0e24-4d5a-84f5-1d0ab71b6939")
+		)
+		(pin "B9"
+			(uuid "79658bd7-03ad-4c2c-a24a-72cd55542251")
+		)
+		(pin "B7"
+			(uuid "b33ce9d6-9921-4ccc-9ee3-fdd9e4dfa3c5")
+		)
+		(pin "S1"
+			(uuid "0a7c3be3-69da-4cdf-b3b4-0b746928c0e5")
+		)
+		(pin "B6"
+			(uuid "be0a6376-27da-4c54-986d-b466b47123b9")
+		)
+		(pin "B12"
+			(uuid "9de354f5-949d-4188-bf46-f84ba812fbda")
+		)
+		(pin "A12"
+			(uuid "69a50afd-e65e-415e-80b6-88f6086a4b7a")
+		)
+		(pin "A6"
+			(uuid "9aef1bc5-fe9d-4a99-9382-f6f3b82e1a91")
+		)
+		(pin "B4"
+			(uuid "ae6f5bc2-7e1f-44c6-b7b7-eeffe256eb02")
+		)
+		(pin "A7"
+			(uuid "4f36cf0f-b417-491c-adb4-80154f7cebdb")
+		)
+		(pin "A9"
+			(uuid "597bd41b-2e8d-4843-9111-aeb6afed88ff")
+		)
+		(pin "B1"
+			(uuid "b648a238-f1d3-47b3-9a52-a7bc36b1d638")
+		)
+		(pin "A1"
+			(uuid "8160f40d-ad9b-426e-89d5-a3b5bef7cfab")
+		)
+		(instances
+			(project ""
+				(path "/6926a609-8b92-4b3a-88c8-3d023174b977/c1b5568e-d56d-48b3-9b9c-ea1ab28283d3"
+					(reference "P1")
 					(unit 1)
 				)
 			)

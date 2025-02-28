@@ -1,8 +1,12 @@
 connectors:
   J1:
     type: "PJ-082BH "
-    pins: [1, 2, SH1, SH2, SH3, SH4, ]
+    pins: [1, 2, SH1, SH2, SH3, SH4]
     pinlabels: [+24V, GND2, GND3, GND3, GND3, GND3, ]
+    manufacturer: "Same Sky "
+    mpn: '<a href="https://www.digikey.de/en/products/detail/same-sky-formerly-cui-devices/PJ-082BH/3477156">PJ-082BH</a>'
+    supplier: Digikey
+    spn: 3477156
   J2:
     type: "3D-Drucker-Netzteil "
     pins: [1, 2]
@@ -14,6 +18,7 @@ cables:
     gauge: 1.5 mm²
     length: 2.0  # Falls die Kabellänge bekannt ist, sonst entfernen
     category: shielded
+    color_code: DIN # auto-assign colors based on DIN 47100
     shield:
       type: braid
       material: tin-plated copper
@@ -32,9 +37,9 @@ cables:
 
 connections:
   -
-    - J1: [1, 2]
-    - CF881-15-02: [1, 2]
     - J2: [1, 2]
+    - CF881-15-02: [1, 2]
+    - J1: [1, 2]
   -
-    - J1: [SH1, SH2, SH3, SH4]
     - CF881-15-02: [s, s, s, s]
+    - J1: [SH1, SH2, SH3, SH4]

@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -57,9 +57,9 @@
       "Net-(D7-K)",
       "MISO",
       "SCK",
-      "Net-(P1-VCONN)",
+      "Net-(D3-K)",
       "USBD+",
-      "Net-(P1-CC)",
+      "Net-(D4-K)",
       "USBD-",
       "Net-(U1-G)",
       "Net-(U3-PG)",
