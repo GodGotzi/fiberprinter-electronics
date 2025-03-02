@@ -39079,7 +39079,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0.680739 -1.24735 270)
+			(at 0.680739 -1.24735 -90)
 			(layer "B.Fab")
 			(uuid "c17ae21d-e65d-4a87-9e79-5c4815076fa6")
 			(effects
