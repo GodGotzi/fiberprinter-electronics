@@ -2378,6 +2378,12 @@
 		(uuid "58198162-e290-4fc2-8b0d-72301f1111d4")
 	)
 	(junction
+		(at 76.2 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da5b470-93d4-4026-9315-7113b5ef8756")
+	)
+	(junction
 		(at 52.07 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2388,6 +2394,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a013685-7800-426e-98be-bc3d9c8b8bbc")
+	)
+	(junction
+		(at 96.52 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92719b36-0bc0-4a7b-b5d6-cc05479601b2")
 	)
 	(junction
 		(at 63.5 29.21)
@@ -2418,12 +2430,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2d35c1c-cb86-49f0-aec3-e24b026d7571")
-	)
-	(junction
-		(at 71.12 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f617e955-66db-4f15-b8f0-f0ab01e353dd")
 	)
 	(no_connect
 		(at 210.82 72.39)
@@ -2495,6 +2501,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 29.21) (xy 115.57 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0135a942-bef9-41b6-a974-91a8ca9afaa1")
+	)
+	(wire
+		(pts
 			(xy 82.55 148.59) (xy 96.52 148.59)
 		)
 		(stroke
@@ -2505,13 +2521,23 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 71.12 29.21)
+			(xy 63.5 29.21) (xy 76.2 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11ad1631-ebad-4bff-a2f2-8a54e381894e")
+	)
+	(wire
+		(pts
+			(xy 96.52 148.59) (xy 101.6 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15edcf55-f0f5-49ac-b46d-1bf1867a19a6")
 	)
 	(wire
 		(pts
@@ -2562,6 +2588,16 @@
 			(type default)
 		)
 		(uuid "2924315c-8dc3-44d6-98e7-b0d707904065")
+	)
+	(wire
+		(pts
+			(xy 96.52 142.24) (xy 96.52 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c75e2b1-c1a1-477d-a483-88af221c050c")
 	)
 	(wire
 		(pts
@@ -2672,16 +2708,6 @@
 			(type default)
 		)
 		(uuid "7093b0ae-edfc-4113-93e1-cd967f263117")
-	)
-	(wire
-		(pts
-			(xy 115.57 29.21) (xy 71.12 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75233ba8-fa19-468c-90c5-11e4a9e1017d")
 	)
 	(wire
 		(pts
@@ -2805,7 +2831,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 43.18) (xy 71.12 45.72)
+			(xy 76.2 43.18) (xy 76.2 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2825,7 +2851,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 30.48) (xy 71.12 29.21)
+			(xy 76.2 30.48) (xy 76.2 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2945,16 +2971,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 148.59) (xy 96.52 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc23e7ce-729f-45bc-8436-c340236afd42")
-	)
-	(wire
-		(pts
 			(xy 217.17 54.61) (xy 210.82 54.61)
 		)
 		(stroke
@@ -2985,7 +3001,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 101.6 45.72)
+			(xy 76.2 45.72) (xy 101.6 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2995,7 +3011,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 96.52 148.59 0)
+		(at 101.6 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3005,7 +3021,7 @@
 		)
 		(uuid "15ea2c25-f815-43d5-8137-6d23dacee02e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.2503 148.59 0)
+			(at 110.3303 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3187,7 @@
 	)
 	(symbol
 		(lib_id "Imported_Component_Symbols:WE-TVSP_DO-214AA_600W_BI")
-		(at 71.12 38.1 90)
+		(at 76.2 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3179,7 +3195,7 @@
 		(dnp no)
 		(uuid "022393d9-5257-4dbb-9a60-66f6e8305216")
 		(property "Reference" "D2"
-			(at 74.93 35.5599 90)
+			(at 80.01 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3204,7 @@
 			)
 		)
 		(property "Value" "WE-TVSP_DO-214AA_600W_BI"
-			(at 74.93 38.0999 90)
+			(at 80.01 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3213,7 @@
 			)
 		)
 		(property "Footprint" "Imported_Component_Footprints:824521241"
-			(at 66.548 38.1 0)
+			(at 71.628 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3223,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 38.1 0)
+			(at 76.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 38.1 0)
+			(at 76.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)

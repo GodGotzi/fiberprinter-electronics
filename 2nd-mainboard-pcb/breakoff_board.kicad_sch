@@ -1898,7 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 33.02) (xy 35.56 34.29)
+			(xy 35.56 27.94) (xy 35.56 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2018,7 +2018,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 41.91) (xy 35.56 43.18)
+			(xy 35.56 36.83) (xy 35.56 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2726,7 +2726,7 @@
 	)
 	(symbol
 		(lib_id "power:+5VP")
-		(at 35.56 33.02 0)
+		(at 35.56 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2735,7 +2735,7 @@
 		(fields_autoplaced yes)
 		(uuid "50f237ec-5b55-41b2-a4f3-617f83a24193")
 		(property "Reference" "#PWR088"
-			(at 35.56 36.83 0)
+			(at 35.56 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2744,7 @@
 			)
 		)
 		(property "Value" "+5V_POW"
-			(at 35.56 27.94 0)
+			(at 35.56 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 33.02 0)
+			(at 35.56 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 33.02 0)
+			(at 35.56 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 35.56 33.02 0)
+			(at 35.56 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3257,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 50.8 0)
+		(at 35.56 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3266,7 +3266,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ec6fafb-bf3d-4949-afd4-2d06edeb5d68")
 		(property "Reference" "#PWR097"
-			(at 35.56 57.15 0)
+			(at 35.56 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3275,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 55.88 0)
+			(at 35.56 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3283,7 +3283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 50.8 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +3292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 50.8 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 50.8 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +4398,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 35.56 38.1 270)
+		(at 35.56 33.02 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4407,7 +4407,7 @@
 		(dnp no)
 		(uuid "d1298230-5e74-4825-80d9-68dc933b036b")
 		(property "Reference" "D7"
-			(at 30.226 36.576 90)
+			(at 30.226 31.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4416,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 34.036 39.116 90)
+			(at 34.036 34.036 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4425,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 35.56 38.1 0)
+			(at 35.56 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +4434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 38.1 0)
+			(at 35.56 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4443,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 35.56 38.1 0)
+			(at 35.56 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4468,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 35.56 46.99 0)
+		(at 35.56 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4477,7 +4477,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3c9b61a-262f-4a9d-abdb-b9d76d69a726")
 		(property "Reference" "R16"
-			(at 38.1 45.7199 0)
+			(at 38.1 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4486,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 38.1 48.2599 0)
+			(at 38.1 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,7 +4495,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 33.782 46.99 90)
+			(at 33.782 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4504,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 46.99 0)
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4513,7 +4513,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 35.56 46.99 0)
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -862,6 +862,10 @@
     [
       "47263415-9ddd-4248-9320-66b73ee498aa",
       "Temperatur Messungen"
+    ],
+    [
+      "ea5ae5b3-44c2-494b-8ea7-708a02119c1a",
+      "Lüfter Ansteuerung"
     ]
   ],
   "text_variables": {}

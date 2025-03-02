@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -16,7 +16,6 @@
       "FAN_01_PWM_counterclockwise",
       "FAN_2_PWM",
       "FAN_3_PWM",
-      "LED_2",
       "Net-(D6-K)",
       "Net-(U7-OUT1)",
       "Net-(U7-OUT2)",
@@ -32,7 +31,6 @@
       "STP_B2",
       "STP_A2",
       "RESET",
-      "LED_3",
       "MOSI",
       "BLT_Switch",
       "TXD",
@@ -52,14 +50,10 @@
       "Quartz_1",
       "Quartz_2",
       "+24V",
-      "LED_0",
-      "LED_1",
       "Net-(D7-K)",
       "MISO",
       "SCK",
-      "Net-(D3-K)",
       "USBD+",
-      "Net-(D4-K)",
       "USBD-",
       "Net-(U1-G)",
       "Net-(U3-PG)",
@@ -119,7 +113,6 @@
       29,
       30,
       32,
-      33,
       34,
       35,
       36,
@@ -127,7 +120,7 @@
       39,
       40
     ],
-    "visible_layers": "ffcff3f_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
