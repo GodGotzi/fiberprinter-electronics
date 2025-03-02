@@ -1,6 +1,6 @@
 connectors:
   J1:
-    type: "PJ-082BH "
+    type: "PJ-082BH   "
     pins: [1, 2, SH1, SH2, SH3, SH4]
     pinlabels: [+24V, GND2, GND3, GND3, GND3, GND3, ]
     manufacturer: "Same Sky "
@@ -9,8 +9,8 @@ connectors:
     spn: 3477156
   J2:
     type: "3D-Drucker-Netzteil "
-    pins: [1, 2, 3]
-    pinlabels: [+24V, GND, SHIELD]
+    pins: [1, 2]
+    pinlabels: [+24V, GND]
 
 cables:
   "CF881-15-02":
