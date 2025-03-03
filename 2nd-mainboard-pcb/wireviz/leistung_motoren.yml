@@ -1,0 +1,29 @@
+connectors:
+  J24:
+    type: Steckverbinder_Male_Leistung
+    pins: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14]
+    pinlabels: [GND, SDA, +12V, RXD, +5V_POW, TXD, STEP, DIR, MOSI, BLT_Servo, LED_3, BLT_Switch, NC, SCL]
+  J15:
+    type: Steckverbinder_Female_Motoren
+    pins: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14]
+    pinlabels: [GND, SDA, +12V, RXD, +5V_POW, TXD, STEP, DIR, MOSI, BLT_Servo, LED_3, BLT_Switch, NC, SCL]
+
+cables:
+  W1:
+    wirecount: 14
+
+connections:
+  -
+    - J24: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14]
+    - W1: [1-14]
+    - J15: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14]
+
+
+# tweak:
+#   override:
+#     graph:
+#       ranksep: "0.5"  # Reduce the horizontal spacing (default 2)
+#     W1:
+#       shape: none  # Hide the surrounding frame
+#       fontsize: "12"  # Reduce the space needed for text
+#       fontcolor: white  # Same as background to hide the text
