@@ -1,9 +1,0 @@
-connectors:
-    J1:
-        type: PJ-082BH
-        pins: [1, 2, SH1, SH2, SH3, SH4, ]
-        pinlabels: [+24V, GND2, GND3, GND3, GND3, GND3, ]
-    P1:
-        type: USB_C_Plug_USB2.0
-        pins: [A1, A4, A5, A6, A7, A8, A9, A12, B1, B4, B5, B6, B7, B8, B9, B12, S1, ]
-        pinlabels: [GND, AREF, Net-(P1-CC), USBD+, USBD-, , AREF, GND, GND, AREF, Net-(P1-VCONN), , , , AREF, GND, Net-(P1-SHIELD), ]

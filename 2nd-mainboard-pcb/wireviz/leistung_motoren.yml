@@ -1,29 +1,39 @@
 connectors:
   J24:
-    type: Steckverbinder_Male_Leistung
-    pins: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14]
+    type: "Modul Leistung: Male" 
+    pincount: 14
     pinlabels: [GND, SDA, +12V, RXD, +5V_POW, TXD, STEP, DIR, MOSI, BLT_Servo, LED_3, BLT_Switch, NC, SCL]
+    manufacturer: "Samtec"
+    mpn: "HW-07-08-L-D-250-SM"
+    supplier: Mouser
+    spn: "200-HW0708LD250SM"
   J15:
-    type: Steckverbinder_Female_Motoren
-    pins: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14]
+    type: "Modul Motoren: Female"
+    pincount: 14
     pinlabels: [GND, SDA, +12V, RXD, +5V_POW, TXD, STEP, DIR, MOSI, BLT_Servo, LED_3, BLT_Switch, NC, SCL]
+    manufacturer: "Samtec"
+    mpn: "HLE-107-02-L-DV"
+    supplier: Digikey
+    spn: "SAM9603-ND"
 
 cables:
   W1:
+    # style: simple
+    show_name: false
+    show_wirecount: false
     wirecount: 14
 
 connections:
   -
-    - J24: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14]
+    - J24: [1-14]
     - W1: [1-14]
-    - J15: [01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, 13, 14]
+    - J15: [1-14]
 
-
-# tweak:
-#   override:
-#     graph:
-#       ranksep: "0.5"  # Reduce the horizontal spacing (default 2)
-#     W1:
-#       shape: none  # Hide the surrounding frame
-#       fontsize: "12"  # Reduce the space needed for text
-#       fontcolor: white  # Same as background to hide the text
+tweak:
+  override:
+    graph:
+      ranksep: "0.1"  # Reduce the horizontal spacing (default 2)
+    W1:
+      shape: none  # Hide the surrounding frame
+      fontsize: "11"  # Reduce the space needed for text
+      fontcolor: white  # Same as background to hide the text

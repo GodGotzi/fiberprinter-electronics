@@ -1,12 +1,12 @@
 connectors:
   J1:
-    type: "PJ-082BH   "
+    type: "Leistungseingang"
     pins: [1, 2, SH1, SH2, SH3, SH4]
     pinlabels: [+24V, GND2, GND3, GND3, GND3, GND3, ]
     manufacturer: "Same Sky "
-    mpn: '<a href="https://www.digikey.de/en/products/detail/same-sky-formerly-cui-devices/PJ-082BH/3477156">PJ-082BH</a>'
+    mpn: '<a href="https://www.digikey.de/en/products/detail/same-sky-formerly-cui-devices/PJ-082BH/3477156">PJ-082BH  </a>'
     supplier: Digikey
-    spn: 3477156
+    spn: "3477156  "
   J2:
     type: "3D-Drucker-Netzteil "
     pins: [1, 2]
