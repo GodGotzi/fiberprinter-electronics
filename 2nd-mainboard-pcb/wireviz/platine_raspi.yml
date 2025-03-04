@@ -1,14 +1,15 @@
 connectors:
-  "USB_RPi":
-    type: usb
-    subtype: usb-a  # Oder "usb-micro" für den Micro-USB-Anschluss des Raspberry Pi
+  Raspberry_Pi:
+    type: USB-A Buchse
+    subtype: USB2.0
+    # subtype: usb-a  # Oder "usb-micro" für den Micro-USB-Anschluss des Raspberry Pi
     pins: [1, 2, 3, 4, 5]
     pinlabels: [VBUS (5V), D-, D+, GND, Shield]
-  USB_C_Platine:
-      type: "USB_C_Receptacle_USB2.0  "
+  P1:
+      type: "USB-C Buchse "
       pins: [A1, A4, A5, A6, A7, A8, A9, A12, B1, B4, B5, B6, B7, B8, B9, B12, S1, ]
       pinlabels: [GND, AREF, Net-(P1-CC1), USBD+, USBD-, SBU1, AREF, GND, GND, AREF, Net-(P1-CC2), USBD+, USBD-, SBU2, AREF, GND, Net-(P1-SHIELD), ] 
-      subtype: usb-c
+      subtype: USB2.0
       manufacturer: '<a href="https://gct.co/">GCT</a>'
       mpn: '<a href="https://www.digikey.at/en/products/detail/gct/USB4085-GF-A/9859662">USB4085-GF-A</a>'
       supplier: Digikey
@@ -45,17 +46,17 @@ cables:
 
 connections:
   - # Verbindung der Datenleitungen
-    - USB_RPi: [1, 2, 3, 4]
+    - Raspberry_Pi: [1, 2, 3, 4]
     - USB_Cable: [1, 2, 3, 4]
   - # Verbindung der Datenleitungen
     - USB_Cable: [1, 2, 3, 1, 1, 2, 3, 1]
-    - USB_C_Platine: [A4, A7, A6, A9, B4, B7, B6, B9]
+    - P1: [A4, A7, A6, A9, B4, B7, B6, B9]
   - # Verbindung von GND
     - USB_Cable: [4, 4, 4, 4] 
-    - USB_C_Platine: [A1, A12, B1, B12]
+    - P1: [A1, A12, B1, B12]
   - # Verbindung des Schrims
-    - USB_RPi: [5]
+    - Raspberry_Pi: [5]
     - USB_Cable: [s]
   - # Verbindung des Schrims
     - USB_Cable: [s]
-    - USB_C_Platine: [S1]
+    - P1: [S1]

@@ -1,0 +1,39 @@
+connectors:
+  J12:
+    type: "Modul Fans: Male"
+    pincount: 14
+    pinlabels: [GND, FAN_01_PWM_counterclockwise, +12V, FAN_01_PWM_clockwise, +5V_POW, SCL, AREF, ADC0, LED_2, ADC1, FAN_3_PWM, ADC2, FAN_2_PWM, ADC3]
+    manufacturer: "Samtec"
+    mpn: "TSM-107-04-L-DV"
+    supplier: Digikey
+    spn: "SAM12266-ND"
+  J13:
+    type: "Modul Leistung: Female"
+    pincount: 14
+    pinlabels: [GND, AREF, +12V, LED_2, +5V_POW, ADC0, FAN_01_PWM_clockwise, ADC1, FAN_01_PWM_counterclockwise, ADC2, FAN_3_PWM, ADC3, FAN_2_PWM, SCL, ]
+    manufacturer: "Samtec"
+    mpn: "HLE-107-02-L-DV"
+    supplier: Digikey
+    spn: "SAM9603-ND"
+
+cables:
+  W1:
+    # style: simple
+    show_name: false
+    show_wirecount: false
+    wirecount: 14
+
+connections:
+  -
+    - J12: [1-14]
+    - W1: [1-14]
+    - J13: [1-14]
+
+tweak:
+  override:
+    graph:
+      ranksep: "0"  # Reduce the horizontal spacing (default 2)
+    W1:
+      shape: none  # Hide the surrounding frame
+      fontsize: "11"  # Reduce the space needed for text
+      fontcolor: white  # Same as background to hide the text
