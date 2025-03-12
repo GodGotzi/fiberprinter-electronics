@@ -1,0 +1,4 @@
+Id	Description	Qty	Unit	Designators	Manufacturer	MPN	Supplier	SPN
+1	Cable, 4 x 28 AWG shielded, BK	1	m	USB_Cable	Generic	USB_CABLE_XYZ		
+2	Connector, USB-A Buchse, USB2.0, 5 pins	1		Raspberry_Pi				
+3	Connector, USB-C Buchse, USB2.0, 17 pins	1		P1	GCT	USB4085-GF-A	Digikey	9859662

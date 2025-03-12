@@ -4,7 +4,7 @@ connectors:
     subtype: USB2.0
     # subtype: usb-a  # Oder "usb-micro" für den Micro-USB-Anschluss des Raspberry Pi
     pins: [1, 2, 3, 4, 5]
-    pinlabels: [VBUS (5V), D-, D+, GND, Shield]
+    pinlabels: [VBUS (5 V), D-, D+, GND, Shield]
   P1:
       type: "USB-C Buchse "
       pins: [A1, A4, A5, A6, A7, A8, A9, A12, B1, B4, B5, B6, B7, B8, B9, B12, S1, ]
@@ -34,7 +34,7 @@ cables:
     notes: "USB-Kabel für Daten- und Stromübertragung"
     # wires:
     #   - color: RD
-    #     signal: "VBUS (5V)"
+    #     signal: "VBUS (5 V)"
     #   - color: WH
     #     signal: "D-"
     #   - color: GN
