@@ -120,15 +120,26 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "f550ba47-da49-4beb-b844-6d3d008b27ea")
 	)
-	(model "${KIPRJMOD}/libraries/3d_models/Download_STP_971110154_rev1.stp"
+	(model "${KIPRJMOD}/libraries/3d_models/Download_STEP_971070154_rev1.stp"
 		(offset
-			(xyz 0 0 11)
+			(xyz 0 0 -9)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 180 0 0)
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/libraries/3d_models/Download_STP_971110154_rev1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
 		)
 	)
 )
