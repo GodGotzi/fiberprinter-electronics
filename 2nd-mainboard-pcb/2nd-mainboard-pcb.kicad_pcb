@@ -528,7 +528,7 @@
 				)
 			)
 		)
-		(property "Value" "I_Sense_5VPOW"
+		(property "Value" "I_Sense_5V"
 			(at 1.09 1.54 90)
 			(layer "F.Fab")
 			(uuid "b6edea13-5740-4d32-930e-068c9ad2db66")
@@ -1753,7 +1753,7 @@
 			)
 		)
 		(path "/6b280cc1-8ac4-49d2-b0b3-bd0ef0a9f8d9")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11941,7 +11941,7 @@
 				)
 			)
 		)
-		(property "Value" "RJK0456DPB"
+		(property "Value" "RJK0456DPB-00-J5"
 			(at -0.1967 -3.2 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14089,7 +14089,7 @@
 				)
 			)
 		)
-		(property "Value" "DRV8825"
+		(property "Value" "Pololu_Breakout_DRV8825"
 			(at 15.109261 2.01985 180)
 			(layer "F.Fab")
 			(uuid "9b0106d1-2ac1-4f78-9df2-53449688f189")
@@ -14550,7 +14550,7 @@
 				)
 			)
 		)
-		(property "Value" "RJK0456DPB"
+		(property "Value" "RJK0456DPB-00-J5"
 			(at -0.1137 3.385 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16389,7 +16389,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/28b8a67a-0859-4efd-b858-c7abf2c6b17e")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16550,7 +16550,7 @@
 				)
 			)
 		)
-		(property "Value" "SMB-2_4P60X3P95_ONS"
+		(property "Value" "SZ1SMB5927BT3G"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16600,7 +16600,7 @@
 		)
 		(property ki_fp_filters "SMB-2_4P60X3P95_ONS SMB-2_4P60X3P95_ONS-M SMB-2_4P60X3P95_ONS-L")
 		(path "/a272e707-9e15-4f8d-a449-08e6fba111d8")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16945,7 +16945,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1b2f15c1-4442-4bda-b402-126d958c7950")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19712,7 +19712,7 @@
 		)
 		(property ki_fp_filters "DPAK5_P-T1_GE3_VIS DPAK5_P-T1_GE3_VIS-M DPAK5_P-T1_GE3_VIS-L")
 		(path "/9a45ce16-8ca9-443e-899b-dff5963fc72f")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20722,7 +20722,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/4fd2e630-35e4-4059-9739-332097b9b529")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -22495,7 +22495,7 @@
 			)
 		)
 		(path "/f97fd291-e6b8-43d9-be8d-40fa03b277d4")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -23051,7 +23051,7 @@
 				)
 			)
 		)
-		(property "Value" "Stepper "
+		(property "Value" "Stepper Motor"
 			(at 0 -4.35 90)
 			(layer "F.Fab")
 			(uuid "4cb2d395-476e-4eda-b30b-22ab62a7505b")
@@ -23636,7 +23636,7 @@
 				)
 			)
 		)
-		(property "Value" "Scheindm."
+		(property "Value" "Servo Motor SM"
 			(at 8.44735 3.480739 -90)
 			(layer "F.Fab")
 			(uuid "415f6bd3-d3bc-4607-aaa9-2994f80df443")
@@ -24677,7 +24677,7 @@
 				)
 			)
 		)
-		(property "Value" "ECS-160"
+		(property "Value" "ECS-160-18-4X-CKM"
 			(at 0.2257 -1.5525 90)
 			(layer "F.Fab")
 			(uuid "05b1237e-16cf-4c7b-98da-36c55eaa02f0")
@@ -25768,7 +25768,7 @@
 				)
 			)
 		)
-		(property "Value" "I_Sense_5VUSBC"
+		(property "Value" "I_Sense_5V"
 			(at 1.34 1.64 90)
 			(layer "F.Fab")
 			(uuid "cb5f3a59-5e41-424d-9cdd-853b7388c8dc")
@@ -26641,7 +26641,7 @@
 				)
 			)
 		)
-		(property "Value" "BL Touch"
+		(property "Value" "Servo Motor BL Touch"
 			(at -3.55265 -0.269261 -90)
 			(layer "F.Fab")
 			(uuid "fb686914-5cb4-4bf7-b108-bc1c7e11c110")
@@ -29784,7 +29784,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9f2ed0f6-3667-4e0e-9dda-cbbde0b18848")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -30001,7 +30001,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/eaec9ddd-4c56-4df2-ada0-f451f7d0c79e")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31228,7 +31228,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/26217396-d960-4030-8983-faa6587fb1e6")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31680,7 +31680,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/118f1d00-df2a-4b2e-98ec-7ad88a5bd0ab")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -31899,7 +31899,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/1d764eb6-6b73-4edc-9f3d-25c5d5d47105")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -32553,7 +32553,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/3d378c67-fa51-44ed-8a7d-4108678497e3")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33207,7 +33207,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/d6d3eea5-c23e-47e5-aed9-5c24bf516120")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -33982,7 +33982,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/96ff6cd0-b5d5-4d29-8906-cc99c95a005c")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34639,7 +34639,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/a94169e8-1883-4518-a4c5-cf6fc0519ec8")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -34802,7 +34802,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "RPA0010A-MFG"
+		(property "Value" "TPS56837HRPAR"
 			(at 2.289999 -0.9425 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34856,7 +34856,7 @@
 		)
 		(property ki_fp_filters "RPA0010A-MFG")
 		(path "/09db56f0-d1e7-42dd-82e4-10ca4a0f5c3e")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_poly
@@ -35268,7 +35268,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/2b05cacd-46e3-4330-876f-b471463659bb")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -36808,7 +36808,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/61af2787-e100-4081-bfb4-0bae6302caab")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38042,7 +38042,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ab9f669c-55fd-4d98-8ae6-1610c40b35be")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -38514,7 +38514,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/338833f9-3e39-46d0-abee-b656232fb2f0")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39390,7 +39390,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/1247c8d2-3232-4d74-96aa-87613a2c902b")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -39609,7 +39609,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/e3fa32eb-17bb-4ceb-b497-e649e7e49f08")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40261,7 +40261,7 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/e311ae14-2f35-4afd-b91f-1fc06cc4cb06")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -40707,7 +40707,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/62def507-c6f1-4709-b5f3-feab8681a3f4")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41378,7 +41378,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/102378fa-52f7-4b7c-86c1-3a0a13dd0a05")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -41598,7 +41598,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/84427e6e-64b3-4894-9cd5-008b47e8a6ac")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42545,7 +42545,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/2d8f3c97-aceb-4d86-a1de-adaad8e32beb")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42764,7 +42764,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/476e6f1a-6267-4910-9a03-ac5bafda9afe")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -42983,7 +42983,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/f281c384-7e4d-4de1-bb9d-cb010eceda63")
-		(sheetname "Root")
+		(sheetname "Stammblatt")
 		(sheetfile "2nd-mainboard-pcb.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -44093,6 +44093,14 @@
 		(uuid "8b35d501-0431-4141-a032-c7f98462bae2")
 	)
 	(segment
+		(start 106.99 130.1425)
+		(end 106.99 132.055)
+		(width 1)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "8c5e7af1-b602-41b6-9648-fee679a34374")
+	)
+	(segment
 		(start 128.02 148.9)
 		(end 128.46 148.46)
 		(width 0.5)
@@ -44635,6 +44643,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "f819ffed-f906-4e8c-8c10-2f6bbaac0682")
+	)
+	(segment
+		(start 106.99 132.055)
+		(end 105.9525 133.0925)
+		(width 1)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "f8f7b3b6-bafb-4b9b-934c-f91195713c6f")
 	)
 	(segment
 		(start 113.47 130.73)
@@ -51322,35 +51338,35 @@
 	)
 	(segment
 		(start 74.47015 122.159261)
-		(end 75.57015 123.259261)
+		(end 75.800889 123.49)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 24)
-		(uuid "40269ae0-e9bd-4de8-8a1c-64078be90157")
+		(uuid "0244d1ea-647e-46f0-b08d-eca96d50988b")
 	)
 	(segment
-		(start 78.360739 123.259261)
-		(end 80.19 121.43)
+		(start 75.800889 123.49)
+		(end 77.66 123.49)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 24)
-		(uuid "583a0c77-151d-4250-9d3a-dc02b94e9767")
+		(uuid "96c105a2-e766-4f59-8aff-bcb6aba37f4b")
 	)
 	(segment
-		(start 75.57015 123.259261)
-		(end 78.360739 123.259261)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 24)
-		(uuid "c5bbc613-d835-44e7-bcd4-a74330f72eb2")
-	)
-	(segment
-		(start 80.19 121.43)
+		(start 79.72 121.43)
 		(end 80.825 121.43)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 24)
-		(uuid "d47838d8-9330-4951-9f13-b093d530c816")
+		(uuid "c2a54eb6-5949-4bfb-b507-1a5b536532ff")
+	)
+	(segment
+		(start 77.66 123.49)
+		(end 79.72 121.43)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 24)
+		(uuid "d9c362b6-61c7-443d-8270-80f6acbfb568")
 	)
 	(segment
 		(start 72.680889 125.45)
@@ -51465,12 +51481,20 @@
 		(uuid "0743d51c-4878-4501-9c6f-dcfd0a701561")
 	)
 	(segment
-		(start 124.98 136.7)
-		(end 124.6525 136.3725)
+		(start 123.42 135.79)
+		(end 124.33 136.7)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 29)
-		(uuid "0797fabe-1ba1-4470-b967-0eba050b1643")
+		(uuid "27207779-8d84-4838-830d-b2a434d8b2b5")
+	)
+	(segment
+		(start 124.33 136.7)
+		(end 124.98 136.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 29)
+		(uuid "277afb2c-3f8b-46df-a09e-acd645c5c95a")
 	)
 	(segment
 		(start 120.3 120.45)
@@ -51503,14 +51527,6 @@
 		(layer "F.Cu")
 		(net 29)
 		(uuid "36eb0b1c-a2ad-41e0-aa88-980dffdbf61b")
-	)
-	(segment
-		(start 122.83 135.79)
-		(end 122.927505 135.692495)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 29)
-		(uuid "3b2d1462-84c5-4606-9a6e-95f16a7b8697")
 	)
 	(segment
 		(start 143.395 138.156191)
@@ -51617,28 +51633,12 @@
 		(uuid "ae77976a-8dd2-4001-a8e1-aa194fa67aa7")
 	)
 	(segment
-		(start 122.927505 135.692495)
-		(end 124.6525 135.692495)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 29)
-		(uuid "af22f13e-5d29-469b-bb20-8d2c87570a07")
-	)
-	(segment
 		(start 66.85015 122.159261)
 		(end 66.85015 120.33985)
 		(width 0.4)
 		(layer "F.Cu")
 		(net 29)
 		(uuid "c61874f0-0534-4998-b556-b2017609e35f")
-	)
-	(segment
-		(start 124.6525 136.3725)
-		(end 124.6525 135.692495)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 29)
-		(uuid "c7c36cab-e9b9-43b0-b907-392488bdd562")
 	)
 	(segment
 		(start 66.85015 120.33985)
@@ -51671,6 +51671,14 @@
 		(layer "F.Cu")
 		(net 29)
 		(uuid "e2d25fcb-d9ac-4fc9-9562-6c5187c4adf7")
+	)
+	(segment
+		(start 122.83 135.79)
+		(end 123.42 135.79)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 29)
+		(uuid "e34efae6-64da-4d5c-90e0-69e88a0e9e40")
 	)
 	(segment
 		(start 117.4525 121.2475)
