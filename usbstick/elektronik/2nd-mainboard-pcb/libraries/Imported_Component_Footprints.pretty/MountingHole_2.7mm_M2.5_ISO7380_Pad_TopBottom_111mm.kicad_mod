@@ -1,0 +1,145 @@
+(footprint "MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom_111mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.7mm, M2.5, ISO7380")
+	(tags "mounting hole 2.7mm m2.5 iso7380")
+	(property "Reference" "REF**"
+		(at 0 -3.25 0)
+		(layer "F.SilkS")
+		(uuid "79d9b9e0-1bd6-49cd-af81-88ab561a9fb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom_7mm"
+		(at 0 3.25 0)
+		(layer "F.Fab")
+		(uuid "ef691c63-a686-4ebf-a204-60a9406253f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b9bcd18-6c24-462f-b65e-0882d41c9ba3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c4552e21-f277-48c9-a3ea-36ac73d6d2c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24684a28-2539-4ce4-b205-8b06d0f62b0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.25 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "992af814-19c1-4e1d-a029-5af410b31ffa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d8ddecee-70a6-4ef4-a9fb-19b59c4fec60")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "caa2ca42-c702-44ca-bbca-9924c2f80865")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.1 3.1)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93957ffd-2fb6-46eb-a8a1-f64e9b217597")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 4.5 4.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "198d8b33-0cb5-4962-ab8b-2745dfed5dfe")
+	)
+	(pad "1" connect circle
+		(at 0 0)
+		(size 4.5 4.5)
+		(layers "B.Cu" "B.Mask")
+		(uuid "f550ba47-da49-4beb-b844-6d3d008b27ea")
+	)
+	(model "${KIPRJMOD}/libraries/3d_models/Download_STEP_971070154_rev1.stp"
+		(offset
+			(xyz 0 0 -9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/libraries/3d_models/Download_STP_971110154_rev1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

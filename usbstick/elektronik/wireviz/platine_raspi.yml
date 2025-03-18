@@ -1,0 +1,62 @@
+connectors:
+  Raspberry_Pi:
+    type: USB-A Buchse
+    subtype: USB2.0
+    # subtype: usb-a  # Oder "usb-micro" für den Micro-USB-Anschluss des Raspberry Pi
+    pins: [1, 2, 3, 4, 5]
+    pinlabels: [VBUS (5 V), D-, D+, GND, Shield]
+  P1:
+      type: "USB-C Buchse "
+      pins: [A1, A4, A5, A6, A7, A8, A9, A12, B1, B4, B5, B6, B7, B8, B9, B12, S1, ]
+      pinlabels: [GND, AREF, Net-(P1-CC1), USBD+, USBD-, SBU1, AREF, GND, GND, AREF, Net-(P1-CC2), USBD+, USBD-, SBU2, AREF, GND, Net-(P1-SHIELD), ] 
+      subtype: USB2.0
+      manufacturer: '<a href="https://gct.co/">GCT</a>'
+      mpn: '<a href="https://www.digikey.at/en/products/detail/gct/USB4085-GF-A/9859662">USB4085-GF-A</a>'
+      supplier: Digikey
+      spn: 9859662  
+
+cables:
+  "USB_Cable":
+    wirecount: 4
+    gauge: 28 AWG
+    # gauge: 28 AWG (Data) / 24 AWG (Power)  # Typische Werte für USB-Kabel
+    length: 1.0  # Länge in Metern, anpassen falls bekannt
+    category: shielded
+    # show_equiv: true
+    color_code: DIN # auto-assign colors based on DIN 47100
+    shield:
+      type: braid
+      material: tin-plated copper
+      coverage: 85  # Typischer Wert für USB-Kabel
+    color: BK  # Mantelfarbe (Schwarz)
+    manufacturer: Generic  # Falls ein Hersteller bekannt ist, ersetzen
+    mpn: USB_CABLE_XYZ  # Falls bekannt, ersetzen
+    notes: "USB-Kabel für Daten- und Stromübertragung"
+    # wires:
+    #   - color: RD
+    #     signal: "VBUS (5 V)"
+    #   - color: WH
+    #     signal: "D-"
+    #   - color: GN
+    #     signal: "D+"
+    #   - color: BK
+    #     signal: "GND"
+    #   - color: Shield
+    #     signal: "Shield"
+
+connections:
+  - # Verbindung der Datenleitungen
+    - Raspberry_Pi: [1, 2, 3, 4]
+    - USB_Cable: [1, 2, 3, 4]
+  - # Verbindung der Datenleitungen
+    - USB_Cable: [1, 2, 3, 1, 1, 2, 3, 1]
+    - P1: [A4, A7, A6, A9, B4, B7, B6, B9]
+  - # Verbindung von GND
+    - USB_Cable: [4, 4, 4, 4] 
+    - P1: [A1, A12, B1, B12]
+  - # Verbindung des Schrims
+    - Raspberry_Pi: [5]
+    - USB_Cable: [s]
+  - # Verbindung des Schrims
+    - USB_Cable: [s]
+    - P1: [S1]
