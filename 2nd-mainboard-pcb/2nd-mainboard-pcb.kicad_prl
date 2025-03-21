@@ -1,11 +1,10 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 1,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "+12V",
       "ADC0",
       "ADC1",
       "ADC2",
@@ -118,7 +117,7 @@
       39,
       40
     ],
-    "visible_layers": "ffcffff_fffffff9",
+    "visible_layers": "ffcffff_fffffffb",
     "zone_display_mode": 0
   },
   "git": {
